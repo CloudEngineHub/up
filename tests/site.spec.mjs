@@ -46,7 +46,9 @@ const closingBookCases = (navigation, manual) => {
   });
   const afterwordIndex = bodyItems.findIndex(({ source }) => normalizedSource(source) === "threads/part-6/afterword.md");
   if (partSixStart <= 0 || afterwordIndex <= partSixStart) return [];
-  const home = navigation[0]?.items?.[0];
+  const home = navigation
+    .flatMap(({ items }) => items)
+    .find(({ source }) => source === "README.md" || source === "en/README.md");
   return bodyItems.slice(partSixStart, afterwordIndex + 1).map((item, offset) => {
     const index = partSixStart + offset;
     return {
@@ -178,19 +180,25 @@ test("Part I places grammar between vocabulary and listening", () => {
   ]);
 });
 
-test("life-review chapters move from story through echoes into recovery", () => {
+test("life-review chapters move from story through personal recovery into evidence and rebuilding", () => {
   const zhPractice = zhNavigation.find(({ text }) => text === "第二部：把自己放回生活");
   const enPractice = enNavigation.find(({ text }) => text === "Part II: Return to Life");
   expect(zhPractice?.items.slice(1, 5).map(({ source }) => source)).toEqual([
     "threads/part-2/my-story.md",
+    "threads/part-2/depression-anxiety-recovery.md",
     "threads/part-2/narrative-and-evidence.md",
     "threads/part-2/x-misc.md",
+  ]);
+  expect(zhPractice?.items.slice(5, 6).map(({ source }) => source)).toEqual([
     "threads/part-2/recovery.md",
   ]);
   expect(enPractice?.items.slice(1, 5).map(({ source }) => source)).toEqual([
     "en/threads/part-2/my-story.md",
+    "en/threads/part-2/depression-anxiety-recovery.md",
     "en/threads/part-2/narrative-and-evidence.md",
     "en/threads/part-2/x-misc.md",
+  ]);
+  expect(enPractice?.items.slice(5, 6).map(({ source }) => source)).toEqual([
     "en/threads/part-2/recovery.md",
   ]);
 });
@@ -279,6 +287,8 @@ test("key story, narrative, entrepreneurship, and AI chapters end on their liter
   const cases = [
     ["threads/part-2/my-story.md", "结语：重来不是凯旋"],
     ["en/threads/part-2/my-story.md", "Closing: Starting Again Is Not a Triumph"],
+    ["threads/part-2/depression-anxiety-recovery.md", "结语：我还在这里"],
+    ["en/threads/part-2/depression-anxiety-recovery.md", "Closing: I Am Still Here"],
     ["threads/part-2/narrative-and-evidence.md", "结语：让故事回到生活"],
     ["en/threads/part-2/narrative-and-evidence.md", "Closing: Let the Story Return to Life"],
     ["threads/part-2/entrepreneurship.md", "结语：让野心经过现实"],

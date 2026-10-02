@@ -43,6 +43,7 @@ export const zhNavigation = [
     items: [
       page("第二部导语：把自己放回生活", "/threads/part-2/return-to-life"),
       page("我的故事", "/threads/part-2/my-story"),
+      page("我还在这里：从抑郁焦虑的黑暗中走出来", "/threads/part-2/depression-anxiety-recovery"),
       page("叙事与证据篇：不把经历写成命运", "/threads/part-2/narrative-and-evidence"),
       page("回声篇：不要把逃避写成浪漫", "/threads/part-2/x-misc"),
       page("恢复篇：先把自己接住", "/threads/part-2/recovery"),
@@ -205,6 +206,7 @@ export const enNavigation = [
     items: [
       page("Part II Introduction: Return to Life", "/en/threads/part-2/return-to-life"),
       page("My Story", "/en/threads/part-2/my-story"),
+      page("I Am Still Here: Coming Through Depression, Anxiety, and the Dark", "/en/threads/part-2/depression-anxiety-recovery"),
       page("Narrative and Evidence: Do Not Turn Experience into Fate", "/en/threads/part-2/narrative-and-evidence"),
       page("Echoes: Do Not Romanticise Avoidance", "/en/threads/part-2/x-misc"),
       page("Recovery: Catch Yourself Before You Push Forward", "/en/threads/part-2/recovery"),

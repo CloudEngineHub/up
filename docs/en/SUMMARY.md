@@ -30,6 +30,7 @@
 
 - [Part II Introduction: Return to Life](threads/part-2/return-to-life.md)
 - [My Story](threads/part-2/my-story.md)
+- [I Am Still Here: Coming Through Depression, Anxiety, and the Dark](threads/part-2/depression-anxiety-recovery.md)
 - [Narrative and Evidence: Do Not Turn Experience into Fate](threads/part-2/narrative-and-evidence.md)
 - [Echoes: Do Not Romanticise Avoidance](threads/part-2/x-misc.md)
 - [Recovery: Catch Yourself Before You Push Forward](threads/part-2/recovery.md)

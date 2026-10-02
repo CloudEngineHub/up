@@ -30,6 +30,7 @@
 
 - [第二部导语：把自己放回生活](docs/threads/part-2/return-to-life.md)
 - [我的故事](docs/threads/part-2/my-story.md)
+- [我还在这里：从抑郁焦虑的黑暗中走出来](docs/threads/part-2/depression-anxiety-recovery.md)
 - [叙事与证据篇：不把经历写成命运](docs/threads/part-2/narrative-and-evidence.md)
 - [回声篇：不要把逃避写成浪漫](docs/threads/part-2/x-misc.md)
 - [恢复篇：先把自己接住](docs/threads/part-2/recovery.md)
