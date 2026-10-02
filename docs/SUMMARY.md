@@ -1,5 +1,9 @@
 # Summary
 
+## 下载
+
+- [下载中心](book-downloads.md)
+
 ## 开始
 
 - [人生进阶指南](README.md)

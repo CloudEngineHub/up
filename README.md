@@ -14,6 +14,7 @@ updated: 2026-09-19
 
 <div class="book-meta" aria-label="书稿信息">
   <span>持续更新书稿</span>
+  <a href="./docs/book-downloads.md">下载中心</a>
   <a href="./docs/public/downloads/life-level-up-guide-zh.epub" download>下载中文 EPUB</a>
   <a href="./docs/public/downloads/life-level-up-guide-en.epub" download>Download English EPUB</a>
   <a href="./docs/public/downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>

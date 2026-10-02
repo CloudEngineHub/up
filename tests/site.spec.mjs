@@ -932,6 +932,20 @@ test("home pages expose reproducible print-ready bilingual PDF editions", async 
   );
 });
 
+test("download centers make all published editions discoverable", async ({ page }) => {
+  await page.goto("./book-downloads");
+  await expect(page.getByRole("heading", { level: 1, name: "下载《人生进阶指南》" })).toBeVisible();
+  for (const label of ["下载中文 PDF", "Download English PDF", "下载中文 EPUB", "Download English EPUB"]) {
+    await expect(page.getByRole("link", { name: label, exact: true })).toHaveAttribute("download", "");
+  }
+
+  await page.goto("./en/book-downloads");
+  await expect(page.getByRole("heading", { level: 1, name: "Download the Life Level-up Guide" })).toBeVisible();
+  for (const label of ["Download English PDF", "下载中文 PDF", "Download English EPUB", "下载中文 EPUB"]) {
+    await expect(page.getByRole("link", { name: label, exact: true })).toHaveAttribute("download", "");
+  }
+});
+
 test("brand and social assets load at their declared dimensions", async ({ page, request }) => {
   await page.goto("./");
   await expect(page.locator('link[rel="icon"]')).toHaveAttribute("href", "/up/assets/logo.svg");

@@ -1,5 +1,9 @@
 # Summary
 
+## Downloads
+
+- [Download Center](book-downloads.md)
+
 ## Start Here
 
 - [Life Level-up Guide](README.md)

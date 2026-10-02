@@ -14,6 +14,7 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
 
 <div class="book-meta" aria-label="Book information">
   <span>Living manuscript</span>
+  <a href="./book-downloads">Download Center</a>
   <a href="../downloads/life-level-up-guide-en.epub" download>Download English EPUB</a>
   <a href="../downloads/life-level-up-guide-zh.epub" download>下载中文 EPUB</a>
   <a href="../downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>

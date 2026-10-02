@@ -6,6 +6,10 @@ const page = (text, link, source = `${link.replace(/^\//, "")}.md`) => ({
 
 export const zhNavigation = [
   {
+    text: "下载",
+    items: [page("下载中心", "/book-downloads")],
+  },
+  {
     text: "开始",
     publication: "frontmatter",
     items: [
@@ -163,6 +167,10 @@ export const zhNavigation = [
 ];
 
 export const enNavigation = [
+  {
+    text: "Downloads",
+    items: [page("Download Center", "/en/book-downloads")],
+  },
   {
     text: "Start Here",
     publication: "frontmatter",
