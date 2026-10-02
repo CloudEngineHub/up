@@ -66,7 +66,7 @@ It also keeps three kinds of claim separate:
 
 ## Business, Discipline, and AI in Practice
 
-Use the [Practice Map](practice.md) to choose a current problem and turn reading into a small experiment with inspectable results. These handbooks complement the five-part book and are included in its digital appendices.
+Use the [Practice Map](practice.md) to choose a current problem and turn reading into a small experiment with inspectable results. These handbooks complement the six-part book and are included in its digital appendices.
 
 | Current task | Practical handbook | Copyable tool |
 | --- | --- | --- |
@@ -88,7 +88,8 @@ When a term is unclear or you do not know which page to open next, use the [Glos
 | Part III: Amplify Ability | How can I use AI without outsourcing judgment or attention? | [Part Introduction](threads/part-3/amplify-ability.md) · [AI Learning](threads/part-3/1-ai-learning.md) · [Attention, Artifacts, and Evidence](threads/part-3/3-attention-and-judgment.md) · [Project Practice](threads/part-3/2-ai-development-and-resource-layer.md) |
 | Part IV: Practice and Recovery | How does learning return to the body, family, and daily life while protecting a young learner's agency when relevant? | [Part Introduction](threads/part-4/practice-and-recovery.md) · [First Week Practice](threads/part-4/week-1.md) · [Family Learning](threads/part-4/family-learning.md) · [Daily System](threads/part-4/daily-system.md) · [Rhythm](threads/part-4/rhythm-and-compounding.md) |
 | Part V: Long-Term Action | How can ninety days, a real project, and the period afterward keep a method accountable? | [Part Introduction](threads/part-5/long-term-action.md) · [90-Day Action Plan](threads/part-5/90-day-plan.md) · [Book Case Study](threads/part-5/book-as-proof.md) · [After Ninety Days](threads/part-5/after-90-days.md) |
-| Afterword | Who do I want to become after leveling up? | [Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md) |
+| Part VI: Be Your Own Lifelong Friend | How can I understand, recognise, care for, and improve myself while staying with myself through change? | [Understanding Yourself](threads/part-6/1-understanding-yourself.md) · [Knowing Yourself](threads/part-6/2-knowing-yourself.md) · [Being Kind to Yourself](threads/part-6/3-being-kind-to-yourself.md) · [Improving Yourself](threads/part-6/4-improving-yourself.md) · [Being Your Own Lifelong Friend](threads/part-6/5-being-your-own-lifelong-friend.md) |
+| Afterword | Who do I want to become after leveling up? | [The Greatest Progress Is Finding Your True Self](threads/part-6/afterword.md) |
 
 ## Begin with One Small Act Today
 

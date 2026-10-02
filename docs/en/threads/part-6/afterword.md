@@ -1,16 +1,18 @@
 ---
-title: "Afterword: Progress Is Not Leaving Yourself Behind"
-description: "A closing return from the first English question to failure, health, relationships, AI, and ordinary action, gathering the guide's promises of honesty, responsibility, evidence, and beginning again."
+title: "Afterword: The Greatest Progress Is Finding Your True Self"
+description: "A closing return from the first English question to failure, health, relationships, AI, and ordinary action, asking whether our greatest progress lies in finding our true selves."
 updated: 2026-09-01
 prev:
-  text: "After Ninety Days: Let Change Remain in Life"
-  link: /en/threads/part-5/after-90-days
+  text: "Being Your Own Lifelong Friend: Stay Connected to Yourself"
+  link: /en/threads/part-6/5-being-your-own-lifelong-friend
 next:
   text: "Return home"
   link: /en/
 ---
 
-# Afterword: Progress Is Not Leaving Yourself Behind
+# Afterword: The Greatest Progress Is Finding Your True Self
+
+> The greatest progress is not finally becoming someone else’s idea of “good enough”. It is recognizing, after repeated action, loss, responsibility, and beginning again, what you truly value and what you are willing to take responsibility for.
 
 I have returned to that afternoon in July 2017.
 
@@ -19,6 +21,8 @@ My friend `W.` was preparing for the TOEFL and asked, “How can I learn English
 At the time, I thought the answer must be hidden in a vocabulary book, a set of grammar rules, or a smarter learning app. I laid out what I knew as if I were spreading a map across a table. I did not first ask where she wanted to go, or how much time she could actually leave each week.
 
 Years later, I can admit that her question may not have been only about English. She was asking how an ordinary person can move life a little forward when time is limited, confidence keeps changing, and life does not cooperate.
+
+I gradually understood that a person does not find themselves first and only then begin to live. The true self becomes visible through choices made, costs paid, and the echoes of the body and relationships. It is not a fixed answer waiting to be discovered, but a direction confirmed again and again by action, boundaries, and responsibility.
 
 Almost every chapter in this book is another echo of that question. English is a concrete door. AI is an increasingly powerful tool. An artifact is an answer that can be delivered. Evidence is a way to reduce self-deception. Rhythm is how a small action travels through time. The door, tool, artifact, evidence, and rhythm all return to the same person in the end.
 
@@ -47,9 +51,11 @@ I keep the failure not because failure is noble by itself, or because every fail
 
 In 2026, I returned to practical work with AI and physical industries. I still treat every direction as work under test. My role, company affiliations, and plans belong in public view. Customers, costs, delivery quality, continued use, and risk outcomes can be answered only by real projects and time. I do not want new names to replace old illusions, or one visit or article to stand in for long-term evidence.
 
-## What Progress Means
+## Finding Your True Self
 
 If progress means becoming a completely different person, it becomes another way to run away. We keep rejecting the person we are and imagine that life may begin once we are intelligent enough, wealthy enough, healthy enough, or stable enough.
+
+The true self is not a fixed answer waiting to be discovered. It is a direction in life confirmed through action, relationships, boundaries, and responsibility.
 
 I would rather define progress as four abilities becoming more dependable:
 
@@ -91,10 +97,9 @@ I cannot promise that tomorrow will be better, and I cannot decide which road is
 - May you keep the ability to review yourself after failure without reducing yourself to the failure;
 - May you ask for help earlier, allow yourself to stop when stopping is responsible, and begin again without waiting for perfect permission.
 
-Progress may not mean moving from a low place to a high one. It may be more like installing a new window in the same house. You still carry old wounds, habits, debts, and awkwardness. You can simply see more kinds of weather now, and know which light should remain on at night.
-
-May progress not mean leaving yourself behind, but finally refusing to despise the person who stumbled all the way here and still did not give up completely.
-
-Thank you for reading this far.
-
-— Han Xiankai
+<div class="afterword-closing">
+  <p class="afterword-closing-window">Progress may not mean moving from a low place to a high one. It may be more like installing a new window in the same house. You still carry old wounds, habits, debts, and awkwardness. You can simply see more kinds of weather now, and know which light should remain on at night.</p>
+  <p class="afterword-closing-theme">The greatest progress may not be becoming flawless. It may be recognizing your own voice after the noise and expectations recede; knowing what deserves persistence, what needs to be released, which responsibilities must be carried, and what kind of life is worth living slowly. The true self is not an unchanging answer, but a direction you are willing to protect through action, relationships, and time.</p>
+  <p class="afterword-closing-note">May you leave this book with more than a method for becoming someone else. May you leave with a clearer recognition: who you are, what you care about, what and whom you are willing to be responsible for, and where you will begin tomorrow.</p>
+  <p class="afterword-closing-signoff">Thank you for reading this far.<br />— Han Xiankai</p>
+</div>

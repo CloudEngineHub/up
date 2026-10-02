@@ -6,8 +6,8 @@ prev:
   text: "案例篇：让这本书证明它的方法"
   link: /threads/part-5/book-as-proof
 next:
-  text: "后记：进阶不是离开原来的自己"
-  link: /threads/part-6/afterword
+  text: "了解自己：先看见自己如何运作"
+  link: /threads/part-6/1-understanding-yourself
 ---
 
 # 九十天以后：把改变留在生活里

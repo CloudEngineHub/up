@@ -58,9 +58,17 @@
 - [案例篇：让这本书证明它的方法](threads/part-5/book-as-proof.md)
 - [九十天以后：把改变留在生活里](threads/part-5/after-90-days.md)
 
+## 第六部：与自己做终身朋友
+
+- [了解自己：先看见自己如何运作](threads/part-6/1-understanding-yourself.md)
+- [认识自己：从角色与评价中收回定义权](threads/part-6/2-knowing-yourself.md)
+- [善待自己：建立不依赖羞耻的恢复系统](threads/part-6/3-being-kind-to-yourself.md)
+- [提升自己：让成长成为可验证的长期实验](threads/part-6/4-improving-yourself.md)
+- [与自己做终身朋友：在变化中持续相处](threads/part-6/5-being-your-own-lifelong-friend.md)
+
 ## 后记
 
-- [进阶不是离开原来的自己](threads/part-6/afterword.md)
+- [人生最大的进阶，是找到真正的自己](threads/part-6/afterword.md)
 
 ## 工具箱
 

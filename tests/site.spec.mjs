@@ -34,6 +34,29 @@ const sha256 = (value) => createHash("sha256").update(value).digest("hex");
 // SSR buttons are visible before VitePress imports the page and mounts Vue.
 // Wait for hydration before interacting, including after a full locale navigation.
 const waitForApp = (page) => page.waitForFunction(() => Boolean(document.querySelector("#app")?.__vue_app__));
+const navigationHref = ({ link }) => `/up${link === "/" ? "/" : link}`;
+const closingBookCases = (navigation, manual) => {
+  const bodyItems = navigation
+    .filter(({ publication }) => publication === "body")
+    .flatMap(({ items }) => items);
+  const normalizedSource = (source) => source.replace(/^en\//, "");
+  const partSixStart = bodyItems.findIndex(({ source }) => {
+    const normalized = normalizedSource(source);
+    return normalized.startsWith("threads/part-6/") && normalized !== "threads/part-6/afterword.md";
+  });
+  const afterwordIndex = bodyItems.findIndex(({ source }) => normalizedSource(source) === "threads/part-6/afterword.md");
+  if (partSixStart <= 0 || afterwordIndex <= partSixStart) return [];
+  const home = navigation[0]?.items?.[0];
+  return bodyItems.slice(partSixStart, afterwordIndex + 1).map((item, offset) => {
+    const index = partSixStart + offset;
+    return {
+      route: `.${item.link}`,
+      previous: navigationHref(bodyItems[index - 1]),
+      next: index === bodyItems.length - 1 ? navigationHref(home) : navigationHref(bodyItems[index + 1]),
+      manual,
+    };
+  });
+};
 
 test("start here leads from the home page into the reader guide and prologue", () => {
   const zhStart = zhNavigation.find(({ text }) => text === "开始");
@@ -50,40 +73,56 @@ test("start here leads from the home page into the reader guide and prologue", (
   ]);
 });
 
-test("navigation follows the five-part book arc", () => {
-  expect(zhNavigation.slice(1, 7).map(({ text }) => text)).toEqual([
+test("navigation follows the six-part book arc", () => {
+  expect(zhNavigation.filter(({ publication }) => publication === "body").slice(0, 5).map(({ text }) => text)).toEqual([
     "第一部：打开输入",
     "第二部：把自己放回生活",
     "第三部：借工具放大能力",
     "第四部：实践与恢复",
     "第五部：行动与长期改变",
-    "后记",
   ]);
-  expect(enNavigation.slice(1, 7).map(({ text }) => text)).toEqual([
+  expect(enNavigation.filter(({ publication }) => publication === "body").slice(0, 5).map(({ text }) => text)).toEqual([
     "Part I: Open Input",
     "Part II: Return to Life",
     "Part III: Amplify Ability",
     "Part IV: Practice and Recovery",
     "Part V: Long-Term Action",
-    "Afterword",
   ]);
+  for (const [navigation, partText, afterwordText, prefix, afterwordSource] of [
+    [zhNavigation, /^第六部/, "后记", "threads/part-6/", "threads/part-6/afterword.md"],
+    [enNavigation, /^Part VI/, "Afterword", "en/threads/part-6/", "en/threads/part-6/afterword.md"],
+  ]) {
+    const body = navigation.filter(({ publication }) => publication === "body");
+    expect(body).toHaveLength(7);
+    expect(body.at(-2).text).toMatch(partText);
+    expect(body.at(-2).items.length).toBeGreaterThan(0);
+    expect(body.at(-2).items.every(({ source }) => source.startsWith(prefix) && source !== afterwordSource)).toBe(true);
+    expect(body.at(-1).text).toBe(afterwordText);
+    expect(body.at(-1).items.map(({ source }) => source)).toEqual([afterwordSource]);
+  }
 });
 
 test("every part opens with a bilingual introduction", () => {
-  expect(zhNavigation.slice(1, 6).map(({ items }) => items[0].source)).toEqual([
+  const zhParts = zhNavigation.filter(({ publication }) => publication === "body").slice(0, -1);
+  const enParts = enNavigation.filter(({ publication }) => publication === "body").slice(0, -1);
+  expect(zhParts.slice(0, 5).map(({ items }) => items[0].source)).toEqual([
     "threads/part-1/open-input.md",
     "threads/part-2/return-to-life.md",
     "threads/part-3/amplify-ability.md",
     "threads/part-4/practice-and-recovery.md",
     "threads/part-5/long-term-action.md",
   ]);
-  expect(enNavigation.slice(1, 6).map(({ items }) => items[0].source)).toEqual([
+  expect(enParts.slice(0, 5).map(({ items }) => items[0].source)).toEqual([
     "en/threads/part-1/open-input.md",
     "en/threads/part-2/return-to-life.md",
     "en/threads/part-3/amplify-ability.md",
     "en/threads/part-4/practice-and-recovery.md",
     "en/threads/part-5/long-term-action.md",
   ]);
+  expect(zhParts).toHaveLength(6);
+  expect(enParts).toHaveLength(6);
+  expect(zhParts.at(-1).items[0].source).toMatch(/^threads\/part-6\/(?!afterword\.md$)/);
+  expect(enParts.at(-1).items[0].source).toMatch(/^en\/threads\/part-6\/(?!afterword\.md$)/);
 });
 
 test("every public navigation route has one bilingual counterpart", () => {
@@ -95,12 +134,14 @@ test("every public navigation route has one bilingual counterpart", () => {
 });
 
 test("reference collections follow the book and stay collapsed by default", () => {
-  expect(zhNavigation.slice(7).map(({ text }) => text)).toEqual(["工具箱", "创业、自律与 AI 实操", "旧文归档", "词表"]);
-  expect(enNavigation.slice(7).map(({ text }) => text)).toEqual(["Toolkit", "Business, Discipline, and AI Practice", "Archive", "Word Lists"]);
-  expect(toSidebar(zhNavigation).slice(0, 7).every(({ collapsed }) => collapsed === false)).toBe(true);
-  expect(toSidebar(zhNavigation).slice(7).every(({ collapsed }) => collapsed === true)).toBe(true);
-  expect(toSidebar(enNavigation).slice(0, 7).every(({ collapsed }) => collapsed === false)).toBe(true);
-  expect(toSidebar(enNavigation).slice(7).every(({ collapsed }) => collapsed === true)).toBe(true);
+  const zhReferenceIndex = zhNavigation.findIndex(({ text }) => text === "工具箱");
+  const enReferenceIndex = enNavigation.findIndex(({ text }) => text === "Toolkit");
+  expect(zhNavigation.slice(zhReferenceIndex).map(({ text }) => text)).toEqual(["工具箱", "创业、自律与 AI 实操", "旧文归档", "词表"]);
+  expect(enNavigation.slice(enReferenceIndex).map(({ text }) => text)).toEqual(["Toolkit", "Business, Discipline, and AI Practice", "Archive", "Word Lists"]);
+  expect(toSidebar(zhNavigation).slice(0, zhReferenceIndex).every(({ collapsed }) => collapsed === false)).toBe(true);
+  expect(toSidebar(zhNavigation).slice(zhReferenceIndex).every(({ collapsed }) => collapsed === true)).toBe(true);
+  expect(toSidebar(enNavigation).slice(0, enReferenceIndex).every(({ collapsed }) => collapsed === false)).toBe(true);
+  expect(toSidebar(enNavigation).slice(enReferenceIndex).every(({ collapsed }) => collapsed === true)).toBe(true);
 });
 
 test("the toolkit begins with a worked example and private reader evidence", () => {
@@ -203,7 +244,10 @@ test("reader field notes ask for action, delayed evidence, revision, and privacy
 
 test("main book chapters leave continuous reading to the authoritative pager", () => {
   const manualPager = /^(?:(?:上一篇|下一篇|下一部|返回首页)[：:]|(?:Prev|Previous|Next|Next Part|Back to the home page):)/m;
-  const sources = [...zhNavigation.slice(1, 7), ...enNavigation.slice(1, 7)]
+  const sources = [
+    ...zhNavigation.filter(({ publication }) => publication === "body"),
+    ...enNavigation.filter(({ publication }) => publication === "body"),
+  ]
     .flatMap(({ items }) => items.map(({ source }) => source))
     .filter((source) => /(?:^|\/)threads\/part-[0-6]\//.test(source) || /^(?:en\/)?projects\.md$/.test(source));
 
@@ -2006,18 +2050,6 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
       manual: /^(?:上一篇|下一篇)[：:]/,
     },
     {
-      route: "./threads/part-5/after-90-days",
-      previous: "/up/threads/part-5/book-as-proof",
-      next: "/up/threads/part-6/afterword",
-      manual: /^(?:上一篇|下一篇)[：:]/,
-    },
-    {
-      route: "./threads/part-6/afterword",
-      previous: "/up/threads/part-5/after-90-days",
-      next: "/up/",
-      manual: /^(?:上一篇|下一篇|返回首页)[：:]/,
-    },
-    {
       route: "./en/threads/part-0/reader-guide",
       previous: "/up/en/",
       next: "/up/en/threads/part-0/prologue",
@@ -2113,19 +2145,12 @@ test("book boundary pagers follow the reading arc without duplicate manual navig
       next: "/up/en/threads/part-5/after-90-days",
       manual: /^(?:Previous|Next|Back to the home page):/,
     },
-    {
-      route: "./en/threads/part-5/after-90-days",
-      previous: "/up/en/threads/part-5/book-as-proof",
-      next: "/up/en/threads/part-6/afterword",
-      manual: /^(?:Previous|Next|Back to the home page):/,
-    },
-    {
-      route: "./en/threads/part-6/afterword",
-      previous: "/up/en/threads/part-5/after-90-days",
-      next: "/up/en/",
-      manual: /^(?:Previous|Next|Back to the home page):/,
-    },
   ];
+
+  cases.push(
+    ...closingBookCases(zhNavigation, /^(?:上一篇|下一篇|下一部|返回首页)[：:]/),
+    ...closingBookCases(enNavigation, /^(?:Previous|Next|Next Part|Back to the home page):/),
+  );
 
   for (const entry of cases) {
     await page.goto(entry.route);

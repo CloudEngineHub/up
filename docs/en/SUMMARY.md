@@ -58,9 +58,17 @@
 - [Case Study: Let the Book Prove Its Method](threads/part-5/book-as-proof.md)
 - [After Ninety Days: Let Change Remain in Life](threads/part-5/after-90-days.md)
 
+## Part VI: Be Your Own Lifelong Friend
+
+- [Understanding Yourself: First See How You Operate](threads/part-6/1-understanding-yourself.md)
+- [Knowing Yourself: Take Back the Right to Define Yourself](threads/part-6/2-knowing-yourself.md)
+- [Being Kind to Yourself: Build a Recovery System without Shame](threads/part-6/3-being-kind-to-yourself.md)
+- [Improving Yourself: Make Growth a Testable Long-Term Experiment](threads/part-6/4-improving-yourself.md)
+- [Being Your Own Lifelong Friend: Stay Connected to Yourself](threads/part-6/5-being-your-own-lifelong-friend.md)
+
 ## Afterword
 
-- [Progress Is Not Leaving Yourself Behind](threads/part-6/afterword.md)
+- [The Greatest Progress Is Finding Your True Self](threads/part-6/afterword.md)
 
 ## Toolkit
 

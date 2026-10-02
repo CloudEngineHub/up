@@ -20,7 +20,6 @@ const introductions = [
   "threads/part-3/amplify-ability.md",
   "threads/part-4/practice-and-recovery.md",
   "threads/part-5/long-term-action.md",
-  "threads/part-6/afterword.md",
 ];
 
 function markdownFiles(directory, output = []) {
@@ -52,20 +51,31 @@ for (const [language, navigation, labels] of [
     assert.ok(actual.every((source) => !/^(?:README\.md$|threads\/(?:archive|word-list)\/)/.test(unprefixed(source))));
   });
 
-  test(`${language}: opening precedes five parts, afterword, then reference and practice appendices`, () => {
+  test(`${language}: opening precedes six parts, afterword, then reference and practice appendices`, () => {
     const sections = publicationSections(navigation, labels);
-    assert.equal(sections.length, 8);
+    assert.equal(sections.length, 9);
     assert.equal(sections[0].text, labels.frontMatter);
     assert.equal(sections.at(-1).text, labels.appendices);
     assert.deepEqual(sources([sections[0]]).map(unprefixed), opening);
-    assert.deepEqual(sections.slice(1, -1).map(({ items }) => unprefixed(items[0].source)), introductions);
-    assert.deepEqual(sections.slice(1, -1).map(({ text }) => text), language === "zh" ? [
+    const bodySections = sections.slice(1, -1);
+    assert.equal(bodySections.length, 7);
+    assert.deepEqual(bodySections.slice(0, 5).map(({ items }) => unprefixed(items[0].source)), introductions);
+    assert.deepEqual(bodySections.slice(0, 5).map(({ text }) => text), language === "zh" ? [
       "第一部：打开输入", "第二部：把自己放回生活", "第三部：借工具放大能力",
-      "第四部：实践与恢复", "第五部：行动与长期改变", "后记",
+      "第四部：实践与恢复", "第五部：行动与长期改变",
     ] : [
       "Part I: Open Input", "Part II: Return to Life", "Part III: Amplify Ability",
-      "Part IV: Practice and Recovery", "Part V: Long-Term Action", "Afterword",
+      "Part IV: Practice and Recovery", "Part V: Long-Term Action",
     ]);
+    const partSix = bodySections.at(-2);
+    assert.match(partSix.text, language === "zh" ? /^第六部/ : /^Part VI/);
+    assert.ok(partSix.items.length >= 1);
+    assert.ok(partSix.items.every(({ source }) => {
+      const normalized = unprefixed(source);
+      return normalized.startsWith("threads/part-6/") && normalized !== "threads/part-6/afterword.md";
+    }));
+    assert.equal(bodySections.at(-1).text, language === "zh" ? "后记" : "Afterword");
+    assert.deepEqual(sources([bodySections.at(-1)]).map(unprefixed), ["threads/part-6/afterword.md"]);
     const appendixSources = sources([sections.at(-1)]).map(unprefixed);
     assert.deepEqual(appendixSources.slice(0, 3), [
       "reference/glossary.md", "templates/toolkit.md", "templates/toolkit-walkthrough.md",

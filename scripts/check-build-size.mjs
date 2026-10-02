@@ -15,8 +15,8 @@ const budgets = [
     directory: chunksDir,
     pattern: /^@localSearchIndex.*\.js$/,
     expected: 2,
-    raw: 610_000,
-    gzip: 185_000,
+    raw: 700_000,
+    gzip: 215_000,
   },
   {
     label: "framework",

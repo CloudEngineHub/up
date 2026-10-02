@@ -78,7 +78,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 
 ## 创业、自律与 AI：把方法用起来
 
-从[实践路线图](docs/practice.md)选择当前卡点，用一次小实验把阅读推进到可核对的结果。实操手册与原有五部主线配合使用，也收录于电子书附录。
+从[实践路线图](docs/practice.md)选择当前卡点，用一次小实验把阅读推进到可核对的结果。实操手册与六部主线配合使用，也收录于电子书附录。
 
 | 当前任务 | 实操入口 | 可复制工具 |
 | --- | --- | --- |
@@ -100,7 +100,8 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [本部导语](docs/threads/part-3/amplify-ability.md) · [AI 学习](docs/threads/part-3/1-ai-learning.md) · [注意力、作品与证据](docs/threads/part-3/3-attention-and-judgment.md) · [项目实践](docs/threads/part-3/2-ai-development-and-resource-layer.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、家庭与日常，并在需要时保护未成年学习者的主体性？ | [本部导语](docs/threads/part-4/practice-and-recovery.md) · [第一周实践](docs/threads/part-4/week-1.md) · [家庭学习](docs/threads/part-4/family-learning.md) · [生活系统](docs/threads/part-4/daily-system.md) · [节律](docs/threads/part-4/rhythm-and-compounding.md) |
 | 第五部：行动与长期改变 | 怎样完成九十天，也让方法在真实项目和九十天以后继续接受检验？ | [本部导语](docs/threads/part-5/long-term-action.md) · [九十天行动篇](docs/threads/part-5/90-day-plan.md) · [本书案例](docs/threads/part-5/book-as-proof.md) · [九十天以后](docs/threads/part-5/after-90-days.md) |
-| 后记 | 进阶之后，我想成为什么样的人？ | [进阶不是离开原来的自己](docs/threads/part-6/afterword.md) |
+| 第六部：与自己做终身朋友 | 怎样了解、认识、善待和提升自己，在变化中与自己长期相处？ | [了解自己](docs/threads/part-6/1-understanding-yourself.md) · [认识自己](docs/threads/part-6/2-knowing-yourself.md) · [善待自己](docs/threads/part-6/3-being-kind-to-yourself.md) · [提升自己](docs/threads/part-6/4-improving-yourself.md) · [与自己做终身朋友](docs/threads/part-6/5-being-your-own-lifelong-friend.md) |
+| 后记 | 进阶之后，我想成为什么样的人？ | [人生最大的进阶，是找到真正的自己](docs/threads/part-6/afterword.md) |
 
 ## 从今天的一件小事开始
 

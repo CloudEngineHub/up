@@ -82,10 +82,21 @@ export const zhNavigation = [
     ],
   },
   {
+    text: "第六部：与自己做终身朋友",
+    publication: "body",
+    items: [
+      page("了解自己：先看见自己如何运作", "/threads/part-6/1-understanding-yourself"),
+      page("认识自己：从角色与评价中收回定义权", "/threads/part-6/2-knowing-yourself"),
+      page("善待自己：建立不依赖羞耻的恢复系统", "/threads/part-6/3-being-kind-to-yourself"),
+      page("提升自己：让成长成为可验证的长期实验", "/threads/part-6/4-improving-yourself"),
+      page("与自己做终身朋友：在变化中持续相处", "/threads/part-6/5-being-your-own-lifelong-friend"),
+    ],
+  },
+  {
     text: "后记",
     publication: "body",
     items: [
-      page("进阶不是离开原来的自己", "/threads/part-6/afterword"),
+      page("人生最大的进阶，是找到真正的自己", "/threads/part-6/afterword"),
     ],
   },
   {
@@ -232,10 +243,21 @@ export const enNavigation = [
     ],
   },
   {
+    text: "Part VI: Be Your Own Lifelong Friend",
+    publication: "body",
+    items: [
+      page("Understanding Yourself: First See How You Operate", "/en/threads/part-6/1-understanding-yourself"),
+      page("Knowing Yourself: Take Back the Right to Define Yourself", "/en/threads/part-6/2-knowing-yourself"),
+      page("Being Kind to Yourself: Build a Recovery System without Shame", "/en/threads/part-6/3-being-kind-to-yourself"),
+      page("Improving Yourself: Make Growth a Testable Long-Term Experiment", "/en/threads/part-6/4-improving-yourself"),
+    page("Being Your Own Lifelong Friend: Stay Connected to Yourself", "/en/threads/part-6/5-being-your-own-lifelong-friend"),
+    ],
+  },
+  {
     text: "Afterword",
     publication: "body",
     items: [
-      page("Progress Is Not Leaving Yourself Behind", "/en/threads/part-6/afterword"),
+      page("The Greatest Progress Is Finding Your True Self", "/en/threads/part-6/afterword"),
     ],
   },
   {

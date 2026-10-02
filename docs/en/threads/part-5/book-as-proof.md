@@ -67,7 +67,7 @@ Reconstruction did not need to prove the old work bad. It needed to admit that t
 
 After the baseline, the project did not ask which fashionable chapters were missing. It asked which changes could not be skipped if a reader were to move from a present problem into long-term action.
 
-The five parts became a causal chain:
+The six parts became a causal chain:
 
 | Part | Change that occurs | What breaks without it |
 | --- | --- | --- |
@@ -76,6 +76,7 @@ The five parts became a causal chain:
 | Amplify Ability | Move from receiving answers into attention, artifacts, evidence, and delivery | AI amplifies speed and unchecked judgment together |
 | Practice and Recovery | Bring the plan into one day, one week, changing capacity, and interruption | The method works only inside an ideal schedule |
 | Long-Term Action | Move from one completion into phase gates, handover, transfer, and stopping | Temporary enthusiasm is mistaken for lasting ability |
+| Be Your Own Lifelong Friend | Move from chasing an ideal self into honest, caring, testable, long-term self-relationship | Progress becomes another way to exile the person who is actually living |
 
 The contents page therefore stopped being a taxonomy. Each part creates a condition for the next, and the next part tests whether the previous one was real. English practice must enter expression and projects. Projects must face evidence. Evidence must enter daily rhythm. Rhythm must finally face time through long-term action and explicit stopping conditions.
 

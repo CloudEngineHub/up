@@ -6,8 +6,8 @@ prev:
   text: "Case Study: Let the Book Prove Its Method"
   link: /en/threads/part-5/book-as-proof
 next:
-  text: "Afterword: Progress Is Not Leaving Yourself Behind"
-  link: /en/threads/part-6/afterword
+  text: "Understanding Yourself: First See How You Operate"
+  link: /en/threads/part-6/1-understanding-yourself
 ---
 
 # After Ninety Days: Let Change Remain in Life
