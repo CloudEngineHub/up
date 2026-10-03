@@ -141,13 +141,13 @@ function checkEntrepreneurshipStyle(file) {
 
 function checkBilingualParity(markdownFiles) {
   const publicFiles = markdownFiles.filter(
-    (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
+    (file) => file.startsWith(`${DOCS}${sep}`) && !file.endsWith("SUMMARY.md"),
   );
   const chineseFiles = publicFiles.filter(
-    (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
+    (file) => !file.startsWith(`${join(DOCS, "en")}${sep}`) && file !== join(DOCS, "README.md"),
   );
   const englishFiles = publicFiles.filter(
-    (file) => file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "en/README.md"),
+    (file) => file.startsWith(`${join(DOCS, "en")}${sep}`) && file !== join(DOCS, "en/README.md"),
   );
 
   for (const file of chineseFiles) {
@@ -179,10 +179,10 @@ function headingShape(file) {
 
 function checkHeadingParity(markdownFiles) {
   const publicFiles = markdownFiles.filter(
-    (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
+    (file) => file.startsWith(`${DOCS}${sep}`) && !file.endsWith("SUMMARY.md"),
   );
   const chineseFiles = publicFiles.filter(
-    (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
+    (file) => !file.startsWith(`${join(DOCS, "en")}${sep}`) && file !== join(DOCS, "README.md"),
   );
 
   for (const file of chineseFiles) {
@@ -203,10 +203,10 @@ function checkHeadingParity(markdownFiles) {
 
 function checkUpdatedParity(markdownFiles) {
   const publicFiles = markdownFiles.filter(
-    (file) => file.startsWith(`${DOCS}/`) && !file.endsWith("SUMMARY.md"),
+    (file) => file.startsWith(`${DOCS}${sep}`) && !file.endsWith("SUMMARY.md"),
   );
   const chineseFiles = publicFiles.filter(
-    (file) => !file.startsWith(`${join(DOCS, "en")}/`) && file !== join(DOCS, "README.md"),
+    (file) => !file.startsWith(`${join(DOCS, "en")}${sep}`) && file !== join(DOCS, "README.md"),
   );
 
   const pairs = [[join(DOCS, "README.md"), join(DOCS, "en/README.md")]];
@@ -339,7 +339,7 @@ function checkTrackedSystemFiles() {
 
 const markdownFiles = walk(ROOT, new Set([".md"]));
 for (const file of markdownFiles) checkLinksAndAlt(file);
-for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}/`))) {
+for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}${sep}`))) {
   checkFrontmatter(file);
   checkManualBookPager(file);
   checkPartOneClosing(file);
@@ -355,7 +355,7 @@ for (const message of navigationProblems(zhNavigation, enNavigation, DOCS)) {
 checkStaleStrings(
   markdownFiles.filter(
     (file) =>
-      file.startsWith(`${DOCS}/`) ||
+      file.startsWith(`${DOCS}${sep}`) ||
       file === join(ROOT, "README.md") ||
       file === join(ROOT, "SUMMARY.md"),
   ),
