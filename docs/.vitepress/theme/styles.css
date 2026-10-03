@@ -9,6 +9,14 @@
   --reading-progress-color: #c0523a;
 }
 
+.dark {
+  --vp-c-brand-1: #6dd5b5;
+  --vp-c-brand-2: #99e6ce;
+  --vp-c-brand-soft: rgba(109, 213, 181, 0.14);
+  --vp-c-tip-1: #6dd5b5;
+  --vp-c-tip-soft: rgba(109, 213, 181, 0.12);
+}
+
 .VPDoc .content-container {
   max-width: 780px;
 }
@@ -208,8 +216,9 @@
 }
 
 .vp-doc table {
-  display: table;
+  display: block;
   width: 100%;
+  overflow-x: auto;
 }
 
 .vp-doc .guide-paths {
@@ -359,6 +368,34 @@
   text-overflow: ellipsis;
 }
 
+/* Keep closed navigation out of the keyboard order and accessibility tree. */
+@media (max-width: 959px) {
+  .VPSidebar:not(.open) {
+    visibility: hidden;
+  }
+}
+
+.VPNavScreenTranslations:not(.open) .list {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .VPNavBarSearch {
+    padding-left: 8px;
+  }
+
+  .VPNavBarSearch .DocSearch-Button {
+    justify-content: center;
+    width: 40px;
+    padding: 0;
+  }
+
+  .VPNavBarSearch .DocSearch-Button-Placeholder,
+  .VPNavBarSearch .DocSearch-Button-Keys {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   html,
   body {
@@ -423,10 +460,6 @@
     grid-template-columns: 1fr;
   }
 
-  .vp-doc table {
-    display: block;
-    overflow-x: auto;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -487,6 +520,17 @@
   .vp-doc img,
   .vp-doc .afterword-closing {
     break-inside: avoid-page;
+  }
+
+  .vp-doc table {
+    display: table;
+    table-layout: fixed;
+    overflow: visible;
+  }
+
+  .vp-doc th,
+  .vp-doc td {
+    overflow-wrap: anywhere;
   }
 
   .vp-doc a {

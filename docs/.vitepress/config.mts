@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import { defineConfig } from "vitepress";
 import { bilingualRoutePairs, enNavigation, toSidebar, zhNavigation } from "./navigation.mjs";
+import { worksheetBySource } from "./worksheets.mjs";
 
 const origin = "https://byoungd.github.io";
 const base = "/up/";
@@ -180,7 +181,7 @@ export default defineConfig({
   sitemap: {
     hostname: siteUrl,
     transformItems(items) {
-      return items.map((item) => {
+      return items.filter((item) => !item.url.includes("public/downloads/worksheets/")).map((item) => {
         const links = item.links || [];
         const languageOf = ({ lang, hreflang }: { lang: string; hreflang?: string }) => lang || hreflang;
         const chinese = links.find((link) => languageOf(link) === "zh-CN");
@@ -373,6 +374,10 @@ export default defineConfig({
     },
   },
   transformPageData(pageData) {
+    const worksheet = worksheetBySource.get(pageData.relativePath);
+    if (worksheet) {
+      pageData.frontmatter.worksheetDownload = { url: worksheet.download, name: worksheet.name };
+    }
     const updated = pageData.frontmatter.updated;
     const timestamp =
       updated instanceof Date

@@ -337,7 +337,11 @@ function checkTrackedSystemFiles() {
   }
 }
 
-const markdownFiles = walk(ROOT, new Set([".md"]));
+// Generated worksheet files are downloadable payloads, not VitePress manuscript
+// pages; their exact content is validated by sync-worksheets.mjs --check.
+const markdownFiles = walk(ROOT, new Set([".md"])).filter(
+  (file) => !file.startsWith(`${join(DOCS, "public", "downloads", "worksheets")}${sep}`),
+);
 for (const file of markdownFiles) checkLinksAndAlt(file);
 for (const file of markdownFiles.filter((path) => path.startsWith(`${DOCS}${sep}`))) {
   checkFrontmatter(file);
