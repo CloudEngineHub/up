@@ -42,6 +42,7 @@
 
 - [第三部导语：借工具放大能力](threads/part-3/amplify-ability.md)
 - [使用 AI 学习一切](threads/part-3/1-ai-learning.md)
+- [AI 趋势与学习路线：把变化变成能力](threads/part-3/6-ai-trends-and-learning-roadmap.md)
 - [注意力篇：把注意力还给自己](threads/part-3/3-attention-and-judgment.md)
 - [作品篇：把学会变成做出](threads/part-3/4-artifacts-and-delivery.md)
 - [证据篇：变化要如何被看见](threads/part-3/5-evidence-and-transfer.md)
@@ -95,6 +96,7 @@
 - [九十日行动总表](templates/90-day-cycle.md)
 - [作品简报与交付卡](templates/artifact-brief.md)
 - [AI 任务简报](templates/ai-task-brief.md)
+- [AI 趋势实验卡](templates/ai-trend-radar.md)
 - [AI 学习记录](templates/ai-learning-log.md)
 - [AI 经历案例复盘](templates/ai-case-review.md)
 - [AI 项目评分卡](templates/ai-project-scorecard.md)

@@ -1,7 +1,7 @@
 ---
 title: "Learning English with AI: From Practice to Real Delivery"
 description: Use English baselines, authentic material, guided practice, four-skill feedback, and delayed retesting instead of outsourcing English ability to one AI product.
-updated: 2026-09-02
+updated: 2026-10-03
 sources_checked: 2026-08-24
 ---
 
@@ -141,6 +141,19 @@ Use the [Writing Evidence Card](../../templates/writing-evidence.md) to record t
 | Speaking practice | Voice conversations | Recognition is not natural pronunciation; features change |
 
 This is not a ranking. Check upload permission, exportability, reviewability, and total cost first. Store goals, samples, errors, and next actions in [Learning State](../../templates/learning-state.md) or [AI Learning Log](../../templates/ai-learning-log.md). Platform memory is only a convenience layer.
+
+## A Multimodal Exercise: From Seeing to Explaining
+
+Images, speech, and text offer more ways to practise. They also make it more important to locate where understanding breaks down. The following is an original exercise of about twenty minutes; adjust it to your capacity and test its usefulness yourself.
+
+1. **Explain first:** choose an English chart or set of instructions you have permission to use, without private information. Without translation, speak for one minute: what it shows, which figures or steps matter, and what remains unclear. Save the original image and recording.
+2. **Separate two kinds of error:** ask AI to locate parts of the image that support or contradict your account, then check its transcript against your recording. A misread decimal point or a mistranscribed accent is initially a tool error. A misunderstanding of the comparison or an incorrect meaning belongs in your learning record.
+3. **Repair one important point:** choose one sentence pattern or relationship affecting understanding and explain it again. Ask AI for a follow-up question, answer first, then inspect feedback. Keep your recording instead of replacing it with a polished script.
+4. **Change the material and remove support:** three to seven days later, use a similar chart with different figures and speak without the old script. If useful, ask a real listener to restate your meaning. Check their understanding, your ability to clarify, and the accuracy of consequential facts.
+
+Record the image page or region, audio timestamps, model, and date. Real-time conversation can support practice in interruption, clarification, and turn-taking, but praise, successful recognition, and a smooth simulation do not establish real communication ability. Without an inspectable recording or transcript, record only what you observed; do not invent precise pronunciation findings.
+
+Use [AI Trends and a Learning Roadmap](../part-3/6-ai-trends-and-learning-roadmap.md) for a small comparison when choosing voice, vision, retrieval, or local tools. As capabilities multiply, keep the unpolished first attempt: it gives improvement a truthful starting point.
 
 ## 9. Feedback and Retesting
 

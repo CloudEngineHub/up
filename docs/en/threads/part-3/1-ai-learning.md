@@ -1,8 +1,8 @@
 ---
 title: "Learning Anything with AI: From Real Problems to Verifiable Delivery"
 description: Based on Han Xiankai's product failure, recovery, and return to AI practice, this chapter builds a practical loop of problems, baselines, practice, delivery, verification, and review.
-updated: 2026-09-19
-sources_checked: 2026-08-24
+updated: 2026-10-03
+sources_checked: 2026-10-03
 ---
 
 # Learning Anything with AI: From Real Problems to Verifiable Delivery
@@ -12,6 +12,8 @@ My name is Han Xiankai, also known online as Li Pu. Many readers first met me th
 The method comes from an uncomfortable fact: an answer can be complete while a product has no users; code can run while its data and security have no foundation; a person can sound clever in a chat and still be unable to perform alone after the chat closes. A real learning result survives without AI: you can explain, judge, perform, transfer, and leave evidence another person can inspect.
 
 For repeatable AI-assisted tasks, continue to [AI Workflows](../practice/ai-workflows.md). Before comparing versions or delivering to others, use an [AI Evaluation Record](../../templates/ai-evaluation.md) to retain failures, human revisions, and costs.
+
+When new tools compete for attention, start with [AI Trends and a Learning Roadmap](6-ai-trends-and-learning-roadmap.md). Separate observed capability, vendor statements, and your own predictions before choosing one change to test. You do not need to follow every release; you need to develop criteria for choosing.
 
 ## Quick Overview
 
@@ -83,6 +85,24 @@ In 2026, as chairman of China Token Cloud Computing Co., Ltd., I returned to tec
 7. **Update state**: save work, errors, cost, open questions, and the smallest next task.
 
 Without step one, AI turns a wish into an answer. Without step two, you cannot see growth. Without steps six and seven, errors return in the next conversation.
+
+## Learn AI Through Five Layers
+
+Learning with AI and learning to build AI applications can support each other, but call for different practice. The first protects your own recall, understanding, and expression. The second also asks how data enters a system, how tools act, and how outcomes are checked. Use these layers to locate a problem before deciding to train a model.
+
+| Layer | Explain in your own words | Practice that leaves evidence |
+| --- | --- | --- |
+| Model and output | Answers depend on inputs and generation; fluency does not establish truth | Find a wrong answer in a familiar subject and retain counterevidence |
+| Context and retrieval | Context is material supplied for the current task; retrieval finds relevant material to supply | Answer questions from three public documents, linking each claim to a passage |
+| Structure and tools | Valid fields do not establish factual accuracy; a requested tool call does not prove execution | Check missing fields, incorrect numbers, and tool failure |
+| Workflow and evaluation | Steps, permissions, failure handling, and acceptance together determine usefulness | Compare manual and AI workflows, keeping failures and total time |
+| Learning and transfer | Assisted output quality and independent ability require separate measures | Change one condition and retry after three to seven days without the old answer |
+
+Retrieval-augmented generation (RAG) typically supplies retrieved material before an answer; fine-tuning changes model parameters through training. They address different problems. For stale information, missing sources, or the wrong search scope, investigate materials and retrieval first. Fine-tuning does not automatically provide current facts, authentic citations, or permission to act. Locate the failure before choosing a technique.
+
+See [IBM's explanation of RAG and fine-tuning](https://www.ibm.com/think/topics/rag-vs-fine-tuning) for the conceptual distinction (published 14 August 2024; checked 3 October 2026). The exercises and troubleshooting sequence above are this guide's teaching choices, not a learning-outcome guarantee from that source.
+
+Readers who do not code can still complete these exercises: manage materials in folders, record comparisons in a table, and ask a real reader to check the result. When moving into development, learn APIs, structured outputs, tool calls, and tests one at a time, attaching each concept to a problem you have already encountered.
 
 ## One-page Task Brief
 
@@ -248,7 +268,7 @@ Put the three comparisons and cycle result into the [90-Day Cycle Map](../../tem
 - **Personal experience**: mainly [My Story](../part-2/my-story.md), [Entrepreneurship](../part-2/entrepreneurship.md), and [Author Projects and Practice](../../projects.md). These are personal records, not universal rules.
 - **Product information**: official help pages listed in [Learning English with AI](../part-1/7-ai.md); features, regions, and plans change.
 - **Project status**: China Token Cloud, `token.love`, public articles, and physical-industry plans carry affiliations or unverified scope; none is an independent review or proof of revenue.
-- **Last checked**: 24 August 2026. Recheck official product pages, external links, and project status before updating or using this guidance.
+- **Last checked**: 3 October 2026. Recheck product features and project status before actual use; the new AI concept sources are linked in the chapter and attribution register.
 
 ## Closing: Keep the Ability with the Person
 

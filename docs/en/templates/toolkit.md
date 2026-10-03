@@ -1,7 +1,7 @@
 ---
 title: "Toolkit Overview: Choose the Problem Before the Tool"
 description: "Route every template by starting point, skill practice, AI collaboration, artifact delivery, review, and recovery so a reader can build one complete action loop with minimal record-keeping."
-updated: 2026-09-19
+updated: 2026-10-03
 ---
 
 # Toolkit Overview: Choose the Problem Before the Tool
@@ -29,6 +29,7 @@ If you do not know where to begin, choose one sheet. An incomplete sheet used on
 | I sound fluent only with a script, fear accent difference, or freeze on follow-ups | [Speaking Evidence Card](speaking-evidence.md) | [Speaking](../threads/part-1/5-speaking.md) | Accent similarity, recognition scores, and one retake cannot prove stable interaction ability |
 | I cannot leave my own draft, depend on sentence translation, or only have a tool-polished product | [Writing Evidence Card](writing-evidence.md) | [Writing](../threads/part-1/6-writing.md) | Fluent final text, automated scores, and one revision cannot prove accountable authorship or transfer |
 | I do not know how to involve AI | [AI Task Brief](ai-task-brief.md) | [AI Learning Log](ai-learning-log.md) | It cannot turn a model response into a fact or final judgment |
+| Too many new tools; unsure what to learn | [AI Trend Experiment](ai-trend-radar.md) | [AI Trends and a Learning Roadmap](../threads/part-3/6-ai-trends-and-learning-roadmap.md) | A launch demo or future hypothesis cannot establish benefit on my task |
 | I have an idea but no deliverable | [Artifact Brief and Delivery Card](artifact-brief.md) | [AI Project Scorecard](ai-project-scorecard.md) | It cannot find users, carry responsibility, or prove a commercial result |
 | I want to analyse a person or project story | [AI Case Review](ai-case-review.md) | [Narrative and Evidence](../threads/part-2/narrative-and-evidence.md) | It cannot turn a public narrative into an independent audit |
 | I am handling a decision, attention, relationship, or recovery problem | [Life Practice Toolkit](life-practice-toolkit.md) | [Decision-Making](../threads/part-2/decision.md) · [Attention](../threads/part-3/3-attention-and-judgment.md) · [Relationships](../threads/part-2/relationships.md) · [Recovery](../threads/part-2/recovery.md) | It cannot replace medical, psychological, legal, or financial support |

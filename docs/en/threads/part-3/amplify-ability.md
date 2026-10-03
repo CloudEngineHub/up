@@ -1,7 +1,7 @@
 ---
 title: "Part III: Amplify Ability"
 description: Place AI, attention, artifacts, evidence, and project delivery inside one structure of responsibility so tools amplify ability rather than unchecked judgment.
-updated: 2026-09-01
+updated: 2026-10-03
 ---
 
 # Part III: Amplify Ability
@@ -29,6 +29,7 @@ The stronger the tool, the clearer the stopping condition must be. Acceleration 
 | Path | Chapters | What to leave behind |
 | --- | --- | --- |
 | Define collaboration | [Learning Anything with AI](1-ai-learning.md) | Problem, baseline, sources, privacy, and human judgment boundaries |
+| Assess change | [AI Trends and a Learning Roadmap](6-ai-trends-and-learning-roadmap.md) | Primary signals, hypotheses, task comparisons, and an exit |
 | Protect judgment | [Attention](3-attention-and-judgment.md) | One closed entrance and one window for independent thought |
 | Make an artifact | [Artifacts](4-artifacts-and-delivery.md) | Audience, completion standard, versions, acceptance owner, and rollback |
 | Verify change | [Evidence](5-evidence-and-transfer.md) | Baseline, immediate performance, delayed retention, and transfer |

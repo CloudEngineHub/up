@@ -1,7 +1,7 @@
 ---
 title: "AI Learning Log: From Tool Collaboration to Independent Ability"
 description: Record a real learning task, unaided baseline, tool scope, source checks, active production, delayed retest, transfer, and the next cycle decision.
-updated: 2026-09-02
+updated: 2026-10-03
 ---
 
 # AI Learning Log: From Tool Collaboration to Independent Ability
@@ -38,6 +38,8 @@ Do not ask AI to write an answer first and call that the starting point. If the 
 
 ```markdown
 Model / version / date:
+Input mode: text / audio / image / video / mixed
+Context, retrieved material, and memory settings actually supplied:
 Mode: diagnosis / follow-up / explanation / counterexample / transcript / candidate / other
 AI may:
 AI may not:
@@ -55,6 +57,8 @@ Move one slice per round. Ask the model to identify gaps, assumptions, sources, 
 
 ```markdown
 Primary sources I checked:
+Original audio, image, or video location and timestamp / page / image region:
+Transcription, visual-recognition, or citation errors, separate from my knowledge errors:
 Errors, outdated claims, or invented material I found:
 Suggestions that changed my understanding and why:
 Suggestions that changed only surface wording:
@@ -112,6 +116,7 @@ Days 3-7: what changed and what happened:
 Day 14: can I explain and use it after closing the old chat:
 Day 30: did the real task require less guessing or rework:
 State-file location:
+Can I resume in a new conversation or another tool using only this state file:
 Handover owner, date, and access:
 Stop or rollback condition:
 ```

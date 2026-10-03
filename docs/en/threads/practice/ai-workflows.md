@@ -1,7 +1,7 @@
 ---
 title: AI Workflows — From Answers to Reliable Delivery
 description: Design inputs, execution, verification, delivery, and failure handling for real tasks, then decide whether automation or an agent is justified.
-updated: 2026-09-20
+updated: 2026-10-03
 sources_checked: 2026-09-20
 ---
 
@@ -20,6 +20,8 @@ Recent official engineering guidance makes the term “agent” more concrete: i
 - **Evaluation now covers process and outcome**: Multi-turn tool calls can change external state. A plausible final answer does not prove the task was completed; retain the task, each trial, the transcript, and the final environment outcome.
 
 These are architecture and governance trends, not a ranking of vendors. Establish a small experiment with a manual baseline, permission gates, and a failure exit before adopting an SDK, MCP, or more elaborate orchestration.
+
+If you have not chosen what to try, use [AI Trends and a Learning Roadmap](../part-3/6-ai-trends-and-learning-roadmap.md) to select a change with a real use. Its multimodal, context, and portability experiments can feed into the five-step workflow below.
 
 ## Choose a task worth repeating
 

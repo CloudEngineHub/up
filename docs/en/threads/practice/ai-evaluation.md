@@ -1,7 +1,7 @@
 ---
 title: AI Evaluation and Reliability — Knowing When to Deliver
 description: Compare AI workflows using real tasks, small test sets, failure categories, and full process costs, and distinguish a successful demo from dependable use.
-updated: 2026-09-20
+updated: 2026-10-03
 sources_checked: 2026-09-20
 ---
 
@@ -82,6 +82,18 @@ Inspect each consequential error against the original materials, beyond the aver
 After a fix, rerun both the triggering case and previously passing cases. For external services, preserve source and environment versions and explain which conditions cannot be reproduced fully.
 
 ## Move into limited use
+
+### Old Scores Do Not Automatically Survive a Model Change
+
+A passing result describes particular inputs, model, materials, memory settings, and tool permissions. This guide recommends recording them together. If a service does not expose a fixed version, retain its displayed model name, run date, and uncontrolled conditions instead of claiming complete reproducibility.
+
+Maintain two sets with different purposes: regression cases retain known failures to prevent recurrence; held-out cases check situations that did not inform tuning. Once repeated inspection of the held-out set guides changes, move it into development or regression coverage and add fresh cases.
+
+After changing models or tools, updating sources, enabling memory, or observing anomalies, run relevant cases in a test environment and inspect final files or system state. For retrieval, separately check whether expected material was found and whether it supports the conclusion. For multimodal tasks, separate recognition accuracy from interpretation. This helps locate the layer that needs repair.
+
+Record the adoption date, owner, and last accepted version. If a mandatory condition fails, reduce use to the validated scope. If the old version cannot be restored, keep a manual fallback. Include maintenance in the cost; release is the beginning of continued observation.
+
+### Give Each Adoption an Exit
 
 Before adoption, specify supported tasks, unsupported inputs, human takeover conditions, spending limits, and rollback. Continue collecting real failures during limited use and refresh the sample set. Rerun relevant checks after changes to the model, prompt, retrieval, or tools.
 

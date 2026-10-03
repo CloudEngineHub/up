@@ -1,7 +1,7 @@
 ---
 title: 工具箱总览：先选问题，再选工具
 description: 按起点、能力训练、AI 协作、作品交付、复盘与恢复分流全部模板，帮助读者用最少记录建立一次完整行动闭环。
-updated: 2026-09-19
+updated: 2026-10-03
 ---
 
 # 工具箱总览：先选问题，再选工具
@@ -29,6 +29,7 @@ updated: 2026-09-19
 | 只在背稿时流畅、害怕口音或遇到追问就卡住 | [口语证据卡](speaking-evidence.md) | [口语篇](../threads/part-1/5-speaking.md) | 不能把口音相似度、语音识别分数或一次重录当成稳定互动能力 |
 | 写不出自己的初稿、依赖整句翻译或只剩工具成品 | [写作证据卡](writing-evidence.md) | [写作篇](../threads/part-1/6-writing.md) | 不能把流畅终稿、自动评分或一次修订当成署名能力与迁移 |
 | 不知道怎样让 AI 参与 | [AI 任务简报](ai-task-brief.md) | [AI 学习记录](ai-learning-log.md) | 不能把模型回答自动变成事实或最终判断 |
+| 新工具太多，不知道该学什么 | [AI 趋势实验卡](ai-trend-radar.md) | [AI 趋势与学习路线](../threads/part-3/6-ai-trends-and-learning-roadmap.md) | 不能把发布演示或未来假设当成自己的任务收益 |
 | 有想法却没有可交付作品 | [作品简报与交付卡](artifact-brief.md) | [AI 项目评分卡](ai-project-scorecard.md) | 不能替你找到用户、承担责任或证明商业结果 |
 | 想分析一个人物或项目故事 | [AI 经历案例复盘](ai-case-review.md) | [叙事与证据篇](../threads/part-2/narrative-and-evidence.md) | 不能把公开叙事当成独立审计 |
 | 正在处理选择、注意力、关系或恢复 | [生活进阶工作表](life-practice-toolkit.md) | [选择篇](../threads/part-2/decision.md) · [注意力篇](../threads/part-3/3-attention-and-judgment.md) · [关系篇](../threads/part-2/relationships.md) · [恢复篇](../threads/part-2/recovery.md) | 不能替代医疗、心理、法律或财务专业支持 |

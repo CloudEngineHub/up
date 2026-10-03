@@ -58,6 +58,7 @@ export const zhNavigation = [
     items: [
       page("第三部导语：借工具放大能力", "/threads/part-3/amplify-ability"),
       page("使用 AI 学习一切", "/threads/part-3/1-ai-learning"),
+      page("AI 趋势与学习路线：把变化变成能力", "/threads/part-3/6-ai-trends-and-learning-roadmap"),
       page("注意力篇：把注意力还给自己", "/threads/part-3/3-attention-and-judgment"),
       page("作品篇：把学会变成做出", "/threads/part-3/4-artifacts-and-delivery"),
       page("证据篇：变化要如何被看见", "/threads/part-3/5-evidence-and-transfer"),
@@ -126,6 +127,7 @@ export const zhNavigation = [
       page("九十日行动总表", "/templates/90-day-cycle"),
       page("作品简报与交付卡", "/templates/artifact-brief"),
       page("AI 任务简报", "/templates/ai-task-brief"),
+      page("AI 趋势实验卡", "/templates/ai-trend-radar"),
       page("AI 学习记录", "/templates/ai-learning-log"),
       page("AI 经历案例复盘", "/templates/ai-case-review"),
       page("AI 项目评分卡", "/templates/ai-project-scorecard"),
@@ -221,6 +223,7 @@ export const enNavigation = [
     items: [
       page("Part III Introduction: Amplify Ability", "/en/threads/part-3/amplify-ability"),
       page("Learning Anything with AI", "/en/threads/part-3/1-ai-learning"),
+      page("AI Trends and a Learning Roadmap", "/en/threads/part-3/6-ai-trends-and-learning-roadmap"),
       page("Attention: Return Your Attention to Yourself", "/en/threads/part-3/3-attention-and-judgment"),
       page("Artifacts: Turn Learning into Something Made", "/en/threads/part-3/4-artifacts-and-delivery"),
       page("Evidence: How Change Becomes Visible", "/en/threads/part-3/5-evidence-and-transfer"),
@@ -292,6 +295,7 @@ export const enNavigation = [
       page("90-Day Cycle Map", "/en/templates/90-day-cycle"),
       page("Artifact Brief and Delivery Card", "/en/templates/artifact-brief"),
       page("AI Task Brief", "/en/templates/ai-task-brief"),
+      page("AI Trend Experiment", "/en/templates/ai-trend-radar"),
       page("AI Learning Log", "/en/templates/ai-learning-log"),
       page("AI Case Review", "/en/templates/ai-case-review"),
       page("AI Project Scorecard", "/en/templates/ai-project-scorecard"),

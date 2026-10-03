@@ -42,6 +42,7 @@
 
 - [Part III Introduction: Amplify Ability](threads/part-3/amplify-ability.md)
 - [Learning Anything with AI](threads/part-3/1-ai-learning.md)
+- [AI Trends and a Learning Roadmap](threads/part-3/6-ai-trends-and-learning-roadmap.md)
 - [Attention: Return Your Attention to Yourself](threads/part-3/3-attention-and-judgment.md)
 - [Artifacts: Turn Learning into Something Made](threads/part-3/4-artifacts-and-delivery.md)
 - [Evidence: How Change Becomes Visible](threads/part-3/5-evidence-and-transfer.md)
@@ -95,6 +96,7 @@
 - [90-Day Cycle Map](templates/90-day-cycle.md)
 - [Artifact Brief and Delivery Card](templates/artifact-brief.md)
 - [AI Task Brief](templates/ai-task-brief.md)
+- [AI Trend Experiment](templates/ai-trend-radar.md)
 - [AI Learning Log](templates/ai-learning-log.md)
 - [AI Case Review](templates/ai-case-review.md)
 - [AI Project Scorecard](templates/ai-project-scorecard.md)

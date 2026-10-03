@@ -1,7 +1,7 @@
 ---
 title: AI Evaluation Record
 description: Record scope, held-out cases, versions, mandatory checks, failures, and complete process costs to decide whether to adopt, repair, or withdraw an AI workflow.
-updated: 2026-09-20
+updated: 2026-10-03
 ---
 
 # AI Evaluation Record
@@ -22,12 +22,14 @@ Use with [AI Evaluation and Reliability](../threads/practice/ai-evaluation.md). 
 ## Test setup (fixed before running)
 - Current version / candidate:
 - Model, prompt, retrieved materials, and tool versions:
+- Run date, region, memory settings, and service versions that cannot be pinned:
 - The one main change:
 - Development cases / held-out cases not used for tuning:
 - Attempts per case and time, call-count, and spending limits:
 - Conditions that must all pass:
 - Quality comparisons and human scoring rubric:
 - Reviewers / disagreement process:
+- Relevant failures: absent sources / prompt injection / unauthorized actions / unbounded retries or duplicate side effects / transcription or image errors:
 
 ## Case records (copy this section separately for each version)
 - Version for this section:
@@ -36,6 +38,7 @@ Use with [AI Evaluation and Reliability](../threads/practice/ai-evaluation.md). 
 - Case ID / trial number:
 - Case type and fixed input location:
 - Expected behavior / judging rationale:
+- Supporting passage / audio or video timestamp / image region:
 - Actual behavior / artifact location:
 - Transcript / tool calls / authorization record location:
 - Final environment outcome (file, database, or user-visible state):
@@ -56,7 +59,9 @@ Use with [AI Evaluation and Reliability](../threads/practice/ai-evaluation.md). 
 - Adopt / retain current version / repair and retest / stop:
 - Cases supporting the decision:
 - New regression cases and rerun scope:
+- Retest triggers after model, material, tool, or memory changes; last accepted version:
 - Permitted use / human takeover / withdrawal conditions:
+- Exit rehearsal after switching providers, disabling memory, or disconnecting tools:
 - Owner, review date, and record location:
 ```
 

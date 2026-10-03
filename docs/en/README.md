@@ -1,7 +1,7 @@
 ---
 title: "Life Level-up Guide | Lifelong Learning in the AI Era"
 description: Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
-updated: 2026-09-19
+updated: 2026-10-03
 ---
 
 # Life Level-up Guide
@@ -105,6 +105,8 @@ Lifelong learning is not opening ten courses at once. It is completing one act t
 You do not have to see the entire road. The first piece of evidence you preserve today becomes somewhere the next step can stand.
 
 ## AI Learning and Project Practice: From Answers to Delivery
+
+When tools change too quickly to follow, start with [AI Trends and a Learning Roadmap](threads/part-3/6-ai-trends-and-learning-roadmap.md). Use an [AI Trend Experiment](templates/ai-trend-radar.md) to turn one new capability into a small comparison: check primary sources, retain a manual baseline, measure full costs, and decide whether to continue. The chapter separates observations from future hypotheses and provides practice in multimodal inputs, context, agents, evaluation, local models, and provenance.
 
 [Learning Anything with AI](threads/part-3/1-ai-learning.md) does not begin with “Which model is best?” It begins with “What problem am I trying to solve?” [Attention](threads/part-3/3-attention-and-judgment.md) adds the missing question of input boundaries, focus, and independent judgment, [Artifacts](threads/part-3/4-artifacts-and-delivery.md) moves understanding toward a deliverable, and [Evidence](threads/part-3/5-evidence-and-transfer.md) checks immediate performance, delayed retention, and real-world transfer. AI can ask guided questions, explain concepts, compare options, organise material, and generate practice. A person must still set the goal, select trustworthy sources, detect fabrication, and use the knowledge independently after the conversation closes.
 

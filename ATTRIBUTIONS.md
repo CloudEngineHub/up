@@ -1,6 +1,6 @@
 # Third-party Material and Citations
 
-Last reviewed: 2026-09-02.
+Last reviewed: 2026-10-03 (AI learning additions; older access dates below are retained).
 
 This register distinguishes repository-owned material from third-party sources. A link is not a transfer of rights. Contributors must add or update an entry when adding external media, a substantial quotation, a dataset, or a product capability claim.
 
@@ -37,6 +37,13 @@ This register distinguishes repository-owned material from third-party sources. 
 | Agent building blocks and model-routing baseline | Bilingual `threads/practice/ai-workflows.md` | [OpenAI, A practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | Model/tool/instruction, guardrail, baseline-evaluation, and cost/latency ideas paraphrased from the official guide; no product-performance claim or source text bundled | 2026-09-20 |
 | MCP interoperability and authorization principles | Bilingual AI workflow and resource-layer chapters | [Model Context Protocol Specification, 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) | Protocol roles, resources, prompts, tools, consent, and trust boundaries paraphrased; implementation remains responsible for its own security review | 2026-09-20 |
 | Task, trial, transcript, outcome, and grading concepts | Bilingual `threads/practice/ai-evaluation.md` | [Anthropic, Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | Brief conceptual paraphrase from the article published 2026-01-09; original fictional evaluation and worksheet, no product-performance claim or source text bundled | 2026-09-20 |
+| Context curation, retrieval, compaction, and structured notes | Bilingual AI trends chapters | [Anthropic, Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | Article published 2025-09-29; design concepts paraphrased, with original portability exercises and no claim that platform memories transfer automatically | 2026-10-03 |
+| Evaluation trials and actual environment outcomes | Bilingual AI trends chapters | [Anthropic, Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | Article published 2026-01-09; supports evaluation concepts, not a general reliability or learning-outcome guarantee | 2026-10-03 |
+| Tool authorization and progressive permission scopes | Bilingual AI trends chapters | [MCP Security Best Practices, 2025-11-25](https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices) | Versioned security guidance; bounded original exercises, no assertion that protocol compliance eliminates prompt injection or data exposure | 2026-10-03 |
+| Image understanding and verification limits | Bilingual AI trends chapters | [Google, Image understanding](https://ai.google.dev/gemini-api/docs/image-understanding) | Documentation updated 2026-09-23; limited capability framing, no universal accuracy claim or provider ranking | 2026-10-03 |
+| Open weights and local execution tradeoffs | Bilingual AI trends chapters | [Google, Gemma overview](https://ai.google.dev/gemma/docs/core) and [Ollama integration](https://ai.google.dev/gemma/docs/integrations/ollama) | Living documentation without a publication date used here; licensing and local execution examples only, no guaranteed privacy, cost, or performance | 2026-10-03 |
+| Provenance versus truth | Bilingual AI trends chapters | [C2PA Explainer, version 2.2](https://c2pa.org/specifications/specifications/2.2/explainer/Explainer.html) | Brief paraphrase of provenance boundaries; credentials do not establish truth and missing credentials do not establish falsity; no third-party media redistributed | 2026-10-03 |
+| RAG versus fine-tuning | Bilingual `threads/part-3/1-ai-learning.md` | [IBM, RAG vs. Fine-tuning](https://www.ibm.com/think/topics/rag-vs-fine-tuning) | Article published 2024-08-14; basic retrieval/context versus parameter-training distinction, followed by this guide's own exercises | 2026-10-03 |
 
 ## Contribution Requirements
 

@@ -99,14 +99,24 @@ Playwright 的 `test-results/` 和 `playwright-report/` 只保存失败诊断与
 - `updated` 表示稿件文字被修改，`sources_checked` 表示外部资料被核验，两者不能互相替代。
 - 公开文章、截图和个人故事只提供线索，不自动成为独立测评、客户案例或收益证明。
 
+## 分支管理
+
+- `main` 是唯一的集成与部署主分支。新工作从最新 `origin/main` 创建短期 `codex/<任务名>` 分支，通过 PR 合入；避免长期平行维护内容主线。
+- 合并前先更新远端引用，检查与当前 `main` 的实际差异和三方合并结果，解决冲突后重新运行对应检查。旧分支曾通过的 CI 不能代替当前合并结果的验证。
+- 保留尚有独立价值的工作，按功能审查和整合。截至 2026-10-03，远端除 `main` 外仅保留 `codex/project-audit-20260909`；其草稿 [PR #199](https://github.com/byoungd/up/pull/199) 仍有冲突，应选择性整合有用改动，保留主线后续内容与修复，不用过期分支整树覆盖当前书稿。
+- 删除分支前，同时检查提交祖先关系与补丁内容。已合并分支须确认提交包含在 `main`；经 squash、cherry-pick 或选择性整合的分支，须确认有用改动已保留且剩余差异有明确处理结论，并检查开放 PR 与发布引用。不能仅凭分支年龄或名称删除。
+- 清理远端分支后运行 `git fetch origin --prune`，同步清理失效的本地远端引用；本地工作分支确认无未保留工作后再删除。
+
+旧 `master` 分支已在本次清理中删除，不再承担发布职责。历史记录中的 `master`、`origin/master` 或旧部署配置只描述当时状态，不应据此恢复旧分支或修改当前发布源。
+
 ## 发布流程
 
 1. 运行 `npm ci`、`npm run check`、`npm run docs:build` 和 `npm run test:smoke`。
 2. 在拉取请求的 `site-preview` 构建产物中检查待发布站点。
-3. 合并到 `master` 后，由 GitHub Pages Actions 工作流部署。
+3. 合并到 `main` 后，由 GitHub Pages Actions 工作流部署。
 4. 部署后检查中文首页、英文首页、代表性章节、搜索、语言切换和旧 hash 跳转。
 
-仓库的 Pages 发布源必须保持为 **GitHub Actions**，不要切回 `master:/docs` 的 Legacy 模式；`deploy.yml` 会在发布后请求中文首页、英文首页和代表性章节，并校验每个入口的期望标题与当前提交的 `build-revision`。正文使用 VitePress clean URLs，文章入口按无尾斜杠路径检查；任何公开入口返回非成功状态、错误页面或旧构建标识都会使部署失败。
+仓库的 Pages 发布源必须保持为 **GitHub Actions**，不要切回按分支发布的 Legacy 模式（历史配置为 `master:/docs`）；`deploy.yml` 会在发布后请求中文首页、英文首页和代表性章节，并校验每个入口的期望标题与当前提交的 `build-revision`。正文使用 VitePress clean URLs，文章入口按无尾斜杠路径检查；任何公开入口返回非成功状态、错误页面或旧构建标识都会使部署失败。
 
 Pages 发布组启用 `cancel-in-progress`：快速连续提交时，旧的构建或部署会被取消，只允许最新提交继续发布。需要回看旧版本时，应从 Git 历史或 CI 构建产物查看，不要依赖线上页面暂时保留旧内容。
 
