@@ -1,7 +1,7 @@
 ---
 title: "Part II: Return to Life"
 description: Place ability, work, relationships, the body, failure, and choice inside one life again, then find a way forward between fact, narrative, and responsibility.
-updated: 2026-09-01
+updated: 2026-10-03
 ---
 
 # Part II: Return to Life
@@ -28,6 +28,7 @@ These questions do not have one answer. People have different bodies, money, res
 | Path | Chapters | What to notice |
 | --- | --- | --- |
 | Enter the scene | [My Story](my-story.md) | Facts, costs, absent voices, and unknowns inside one experience |
+| Relearn the body and emotions | [I Am Still Here: Coming Through Depression, Anxiety, and the Dark](depression-anxiety-recovery.md) | Depression, anxiety, medication-stopping risks, help-seeking, and small actions in recovery |
 | Read the story again | [Narrative and Evidence](narrative-and-evidence.md) · [Echoes](x-misc.md) | The version then, the explanation now, and an action that can be tested next |
 | Catch yourself first | [Recovery](recovery.md) | Safety, basic care, support, and minimum order |
 | Choose again | [Decision-Making](decision.md) · [Relationships](relationships.md) | Reversibility, boundaries, impact, and conditions for repair |

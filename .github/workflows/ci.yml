@@ -34,6 +34,7 @@ jobs:
       - name: Generated files are committed
         run: |
           npm run sync:content
+          npm run book:pdf:check
           git diff --exit-code
 
   smoke:

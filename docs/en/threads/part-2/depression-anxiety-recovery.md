@@ -10,7 +10,7 @@ updated: 2026-10-03
 
 ## Narrative Boundary
 
-I place this chapter after “My Story” because the previous chapter records what happened, while this one records how those events entered my body, emotions, and relationships. It remains my perspective, not a complete judgment of anyone involved. Details about my family, partner, child, and friends are limited to what is needed to understand my experience.
+I place this chapter after [My Story](my-story.md) because the previous chapter records what happened, while this one records how those events entered my body, emotions, and relationships. It remains my perspective, not a complete judgment of anyone involved. Details about my family, partner, child, and friends are limited to what is needed to understand my experience.
 
 I am not a clinician, and I do not diagnose myself or anyone reading this from a memory. This chapter does not provide medication names, doses, taper schedules, replacement treatments, or crisis assessments. Starting, adjusting, reducing, or stopping medication should be evaluated with the prescribing doctor or another qualified professional. A personal account can help us begin a conversation; it cannot replace professional judgment.
 
@@ -18,7 +18,7 @@ I am not a clinician, and I do not diagnose myself or anyone reading this from a
 
 Before the company failed, I believed every problem could be solved with longer hours. If a project broke, I revised it again. If cash flow broke, I found another path. If the team was about to dissolve, I told another story about the future. I treated persistence as a moral quality and stopping as betrayal.
 
-In 2022, sales fell, and the problems in our architecture, product, and cash flow surfaced together. Conflict over management made the office feel like a room that kept tightening. In June, my stomach began to fail, followed by erosive gastritis, insomnia, blurred vision, loss of appetite, and pain that moved through my body. My body kept sending signals; I wanted to prove that I was simply not strong enough yet.
+In 2022, sales fell, and the problems in our architecture, product, and cash flow surfaced together. Conflict over management made the office feel like a room that kept tightening. In June, my stomach began to fail, followed by erosive gastritis, insomnia, blurred vision, loss of appetite, and pain that moved through my body. My body kept sending signals; I translated them into one sentence: I was simply not strong enough.
 
 One night I told my partner, “I may not make it.” I began speaking chaotically and trying to arrange what should happen after me. She cried, and our child woke up. There was no cinematic turn that night. There was only a family woken by fear, waiting for me to become quiet again.
 
@@ -85,6 +85,7 @@ The next action can be very small: drink water, eat, open a window, send one mes
 ## Sources and Boundaries
 
 - [Recovery: Catch Yourself Before You Push Forward](recovery.md): a practical framework for safety, reduced load, specific help, and a gradual return to work.
+- [Narrative and Evidence: Do Not Turn Experience into Fate](narrative-and-evidence.md): separate facts, interpretations, responsibility, and what remains unknown.
 - This chapter does not provide diagnosis, medication plans, tapering instructions, or local crisis-line numbers. Contact qualified professionals and emergency services available where you live.
 
 ## Closing: I Am Still Here

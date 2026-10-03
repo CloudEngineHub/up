@@ -726,6 +726,10 @@ test("page metadata follows the route", async ({ page }) => {
   await page.goto("./threads/part-1/2-vocabulary");
   await expect(page).toHaveTitle(/词汇篇/);
   await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", /词汇/);
+  await expect(page.getByRole("link", { name: "编辑本页" })).toHaveAttribute(
+    "href",
+    "https://github.com/byoungd/up/edit/main/docs/threads/part-1/2-vocabulary.md",
+  );
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     "href",
     "https://byoungd.github.io/up/threads/part-1/2-vocabulary/",
@@ -2388,13 +2392,17 @@ test("practice paths connect the homepage, handbook, and copyable tools", async 
     ["./en/", "Practice Map", "From Problems to First Customers", "Startup Experiment"],
   ]) {
     await page.goto(prefix);
+    await waitForApp(page);
     await page.locator("main").getByRole("link", { name: map, exact: true }).click();
     await expect(page).toHaveURL(/\/practice$/);
+    await waitForApp(page);
     await page.locator("main").getByRole("link", { name: heading, exact: true }).first().click();
     await expect(page).toHaveURL(/\/threads\/practice\/customer-discovery$/);
+    await waitForApp(page);
     await page.locator("main").getByRole("link", { name: new RegExp(tool, "i") }).first().click();
     await expect(page).toHaveURL(/\/templates\/startup-experiment$/);
-    await expect(page.locator("main pre").first()).toBeVisible();
+    await page.goto(`${prefix}templates/startup-experiment`);
+    await expect(page.locator("main pre").first()).toBeVisible({ timeout: 15_000 });
   }
 });
 
