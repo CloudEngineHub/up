@@ -17,6 +17,7 @@
     "check:format": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#docs/.vitepress/dist\"",
     "check:bundle": "node scripts/check-build-size.mjs",
     "book:build": "node scripts/build-epub.mjs",
+    "book:validate": "node scripts/check-epub-standard.mjs",
     "book:check": "node scripts/build-epub.mjs --check",
     "book:pdf:build": "node scripts/run-pdf-build.mjs",
     "book:pdf:check": "node scripts/run-pdf-build.mjs --check",
