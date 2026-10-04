@@ -15,7 +15,7 @@
     "check:navigation": "node scripts/sync-navigation.mjs --check && node scripts/sync-word-lists.mjs --check && node scripts/sync-public-assets.mjs --check",
     "check:worksheets": "node scripts/sync-worksheets.mjs --check",
     "check:readme": "node scripts/sync-readme.mjs --check",
-    "check:format": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#docs/.vitepress/dist\"",
+    "check:format": "markdownlint --dot \"**/*.md\"",
     "check:bundle": "node scripts/check-build-size.mjs",
     "book:build": "node scripts/build-epub.mjs",
     "book:validate": "node scripts/check-epub-standard.mjs",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "@axe-core/playwright": "4.11.0",
     "@playwright/test": "1.62.1",
-    "markdownlint-cli2": "0.23.2",
+    "markdownlint-cli": "0.49.1",
     "mdast-util-from-markdown": "2.0.3",
     "mdast-util-gfm": "3.1.0",
     "mdast-util-to-markdown": "2.1.2",
@@ -44,9 +44,6 @@
   },
   "overrides": {
     "esbuild": "0.25.12",
-    "vite": "6.4.3",
-    "markdownlint-cli2": {
-      "smol-toml": "1.7.1"
-    }
+    "vite": "6.4.3"
   }
 }
