@@ -316,6 +316,7 @@
 .vp-doc .latest-updates {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 16px;
   margin: 24px 0 32px;
 }
@@ -338,8 +339,8 @@
   object-position: center;
 }
 
-.vp-doc .latest-update .latest-update-fan-photo {
-  object-position: center 72%;
+.vp-doc .latest-update .latest-update-visit-photo {
+  aspect-ratio: 4 / 3;
 }
 
 .vp-doc .latest-update figcaption {

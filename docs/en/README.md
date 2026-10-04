@@ -166,8 +166,8 @@ A method reveals its strength only after it enters a life. Relationships end and
     <figcaption><strong>Trusting encounter again</strong>After the end of a relationship, recovery, and the work of reorganising life, Han Xiankai has begun a new relationship. Beginning again does not erase the past, but it shows that life can keep growing.</figcaption>
   </figure>
   <figure class="latest-update">
-    <img class="latest-update-fan-photo" src="../assets/latest/agentic-db-fans.webp" alt="Han Xiankai with readers at the Agentic DB conference" width="1100" height="1467" loading="lazy" decoding="async" fetchpriority="low" />
-    <figcaption><strong>Meeting in the real world</strong>At the Alibaba × NVIDIA Agentic DB conference, Han Xiankai met readers and peers face to face, returning public writing to real people and real questions.</figcaption>
+    <img class="latest-update-visit-photo" src="../assets/latest/current-qwen.jpg" alt="Han Xiankai viewing a Qwen display during a visit to Alibaba" width="1706" height="1279" loading="lazy" decoding="async" fetchpriority="low" />
+    <figcaption><strong>Visiting Alibaba</strong>I visited Alibaba to learn about Qwen at its on-site display.</figcaption>
   </figure>
 </div>
 

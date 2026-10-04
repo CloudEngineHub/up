@@ -178,8 +178,8 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
     <figcaption><strong>重新相信相遇</strong>经历关系结束、恢复与重新整理生活之后，韩先凯开启了一段新的恋情。重新开始不会抹去过去，但它证明生活仍然能够向前生长。</figcaption>
   </figure>
   <figure class="latest-update">
-    <img class="latest-update-fan-photo" src="./docs/assets/latest/agentic-db-fans.webp" alt="韩先凯在 Agentic DB 大会与读者合影" width="1100" height="1467" loading="lazy" decoding="async" fetchpriority="low" />
-    <figcaption><strong>在现场相遇</strong>参加阿里巴巴 × NVIDIA Agentic DB 大会，与读者和同行面对面交流，让公开写作回到真实的人与问题之中。</figcaption>
+    <img class="latest-update-visit-photo" src="./docs/assets/latest/current-qwen.jpg" alt="韩先凯在阿里巴巴参观千问大模型展示" width="1706" height="1279" loading="lazy" decoding="async" fetchpriority="low" />
+    <figcaption><strong>走进阿里巴巴</strong>我到阿里巴巴参观考察，在现场了解千问大模型的展示。</figcaption>
   </figure>
 </div>
 

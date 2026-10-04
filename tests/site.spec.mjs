@@ -1309,6 +1309,9 @@ test("home pages use book metadata without third-party image requests", async ({
     "https://creativecommons.org/licenses/by-nc/4.0/",
   );
   await expect(page.locator(".VPSocialLink")).toHaveCount(0);
+  const zhVisitPhoto = page.locator(".latest-update-visit-photo");
+  await zhVisitPhoto.scrollIntoViewIfNeeded();
+  await expect(zhVisitPhoto).toHaveJSProperty("naturalWidth", 1706);
   expect(externalImages).toEqual([]);
 
   await page.goto("./en/");
@@ -1329,13 +1332,16 @@ test("home pages use book metadata without third-party image requests", async ({
   expect(readerFieldNoteHtml).toContain("Reader Field Note");
   expect(readerFieldNoteHtml).not.toContain("读者现场回执");
   await expect(enMeta.getByRole("link", { name: "Text CC BY-NC 4.0" })).toBeVisible();
+  const enVisitPhoto = page.locator(".latest-update-visit-photo");
+  await enVisitPhoto.scrollIntoViewIfNeeded();
+  await expect(enVisitPhoto).toHaveJSProperty("naturalWidth", 1706);
   expect(externalImages).toEqual([]);
 });
 
 test("English homepage and listening copy keep the editorial corrections", async ({ page }) => {
   await page.goto("./en/");
   await expect(page.locator(".latest-update").nth(1)).toContainText(
-    "Han Xiankai met readers and peers face to face",
+    "I visited Alibaba to learn about Qwen",
   );
 
   const projects = readFileSync(resolve(process.cwd(), "docs/en/projects.md"), "utf8");
