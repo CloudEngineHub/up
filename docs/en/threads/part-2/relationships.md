@@ -1,7 +1,7 @@
 ---
 title: "Relationships: Becoming an Adult in Connection"
 description: Relearn intimacy, family, friendship, and work through presence, boundaries, power, consent, repair, leaving, and responsibility.
-updated: 2026-09-03
+updated: 2026-10-04
 ---
 
 # Relationships: Becoming an Adult in Connection
@@ -216,6 +216,8 @@ A healthy relationship can contain conflict and still allow people to:
 - let a relationship change without interpreting departure as proof of anyone’s worthlessness.
 
 If a relationship keeps you in fear or control, seek help before trying to become “better at communication”.
+
+When boundaries are respected, we can also practise care. [Care: Finding Strength in the People We Love](care-and-carry-on.md) carries presence into everyday help, gratitude, receiving support, and shared tasks. Use the Care and Shared Responsibility Card in the [Life Practice Toolkit](../../templates/life-practice-toolkit.md) to agree on one practical task. Family or a partner need not be the only or required source of support, and refusing a request is not rejecting the relationship.
 
 ## Closing: Let Love Have Boundaries
 

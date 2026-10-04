@@ -36,6 +36,7 @@
 - [Recovery: Catch Yourself Before You Push Forward](threads/part-2/recovery.md)
 - [Decision-Making: Choosing Under Uncertainty](threads/part-2/decision.md)
 - [Relationships: Becoming an Adult in Connection](threads/part-2/relationships.md)
+- [Care: Finding Strength in the People We Love](threads/part-2/care-and-carry-on.md)
 - [Entrepreneurship: From Ambition to Purpose](threads/part-2/entrepreneurship.md)
 
 ## Part III: Amplify Ability

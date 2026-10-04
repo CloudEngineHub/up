@@ -52,6 +52,7 @@ for (const locale of ["zh", "en"]) {
     const activeOption = page.locator(`[id="${activeId}"]`);
     await expect(activeOption).toHaveAttribute("role", "option");
     await expect(activeOption).toHaveAttribute("aria-selected", "true");
+    await expect(activeOption).toHaveAttribute("href", /\/threads\/part-1\//);
     await expect(input).toBeFocused();
     const destination = await activeOption.getAttribute("href");
     await input.press("Enter");
@@ -67,6 +68,7 @@ for (const locale of ["zh", "en"]) {
     await trigger.press("Enter");
     await input.fill("CEFR");
     await expect(options.first()).toBeVisible();
+    await expect(options.first()).toHaveAttribute("href", /\/threads\/part-1\//);
     const firstDestination = await options.first().getAttribute("href");
     await options.first().click();
     await expect(dialog).toHaveCount(0);

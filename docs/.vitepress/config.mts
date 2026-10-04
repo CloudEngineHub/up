@@ -91,6 +91,7 @@ function splitSearchSections(file: string, html: string) {
     "/threads/part-5/book-as-proof.md",
     "/templates/toolkit-walkthrough.md",
     "/threads/part-1/3-listening.md",
+    "/threads/part-2/care-and-carry-on.md",
   ].some((suffix) => normalizedFile.endsWith(suffix));
   const pageLevelOnly =
     normalizedFile.includes("/templates/") ||
@@ -308,6 +309,7 @@ export default defineConfig({
       provider: "local",
       options: {
         _render(src, env, md) {
+          if (env.relativePath.startsWith("public/downloads/worksheets/")) return "";
           const contentTokens = md
             .parse(src, env)
             .filter(({ type }) => type !== "fence" && type !== "code_block");

@@ -27,6 +27,8 @@ Do not ask AI to write an answer first and call that the starting point. If the 
 ## 3. Agree What AI Does
 
 Model / version / date:\
+Input mode: text / audio / image / video / mixed\
+Context, retrieved material, and memory settings actually supplied:\
 Mode: diagnosis / follow-up / explanation / counterexample / transcript / candidate / other\
 AI may:\
 AI may not:\
@@ -42,6 +44,8 @@ Move one slice per round. Ask the model to identify gaps, assumptions, sources, 
 |      |                    |                  | explanation / question / candidate / feedback / code / other |                    | accept / partly / reject / verify |
 
 Primary sources I checked:\
+Original audio, image, or video location and timestamp / page / image region:\
+Transcription, visual-recognition, or citation errors, separate from my knowledge errors:\
 Errors, outdated claims, or invented material I found:\
 Suggestions that changed my understanding and why:\
 Suggestions that changed only surface wording:
@@ -93,6 +97,7 @@ Days 3-7: what changed and what happened:\
 Day 14: can I explain and use it after closing the old chat:\
 Day 30: did the real task require less guessing or rework:\
 State-file location:\
+Can I resume in a new conversation or another tool using only this state file:\
 Handover owner, date, and access:\
 Stop or rollback condition:
 
@@ -110,4 +115,4 @@ Related entry points: [Learning Principles: Turn Effort into Verifiable Learning
 
 ---
 
-Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/ai-learning-log) · Manuscript updated: 2026-09-02. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/ai-learning-log) · Manuscript updated: 2026-10-03. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

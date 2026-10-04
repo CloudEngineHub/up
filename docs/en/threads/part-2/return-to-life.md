@@ -1,7 +1,7 @@
 ---
 title: "Part II: Return to Life"
-description: Place ability, work, relationships, the body, failure, and choice inside one life again, then find a way forward between fact, narrative, and responsibility.
-updated: 2026-10-03
+description: Place ability, work, relationships, the body, failure, and choice inside one life again, then find a way forward through facts, responsibility, care, and shared burdens.
+updated: 2026-10-04
 ---
 
 # Part II: Return to Life
@@ -14,12 +14,15 @@ After opening the world, we must return ourselves to life. This does not mean tu
 
 This part has no curve that rises without interruption. It is more like returning to a room you once left in a hurry, switching on the light, and seeing the unsettled accounts on the table, the people who waited near the door, and the self who kept wanting to escape somewhere farther away.
 
+Returning to life also means noticing the people worth caring for. Family, a partner, friends, or other trustworthy people may give us strength; that support requires willingness, capacity, and boundaries, rather than being a compulsory duty of any relationship. Carrying responsibility can include stopping to share or reduce a load and finding support outside the family.
+
 ## Questions for This Part
 
 - How can I tell a personal story without pouring later knowledge back into the past?
 - How can I own what I did wrong without defending violence, crossed boundaries, or another person's choices?
 - Under uncertainty, how can a decision keep a boundary, a review date, and a way back?
 - When work, relationships, or the body lose order, what should stop first, where is help needed, and what can still continue at a smaller scale?
+- How can care become practical help and shared tasks that both people choose, so love gives strength without becoming a debt or a reason to endure too much?
 
 These questions do not have one answer. People have different bodies, money, responsibilities, and safety conditions. This part offers a way to read the past, not a demand that every reader reach the same conclusion.
 
@@ -32,6 +35,7 @@ These questions do not have one answer. People have different bodies, money, res
 | Read the story again | [Narrative and Evidence](narrative-and-evidence.md) · [Echoes](x-misc.md) | The version then, the explanation now, and an action that can be tested next |
 | Catch yourself first | [Recovery](recovery.md) | Safety, basic care, support, and minimum order |
 | Choose again | [Decision-Making](decision.md) · [Relationships](relationships.md) | Reversibility, boundaries, impact, and conditions for repair |
+| Care and share the load | [Care: Finding Strength in the People We Love](care-and-carry-on.md) | Practical care, care work, both people's capacity, room to refuse, and loads that can be reduced |
 | Face the venture | [Entrepreneurship](entrepreneurship.md) | Users, cash flow, technical debt, team responsibility, and stopping gates |
 
 Allow yourself to pause while reading personal material. If it returns you to persistent sleeplessness, panic, hopelessness, or thoughts of harm, leave the page and contact someone you trust and qualified local support. No review is worth injuring yourself again.
@@ -44,6 +48,8 @@ At the end of this part, do not leave only “I have let go” or “I should tr
 2. One responsibility that calls for ownership, apology, stopping, or repair;
 3. One boundary protecting the body, a relationship, or money;
 4. One minimum action that does not depend on a dramatic reversal.
+
+When care or a shared burden is involved, you can also keep one arrangement both people choose: who will do what, where other support is needed, and when to check whether the load is too heavy. Use the Care and Shared Responsibility Card in the toolkit. The other person may decline to participate; helping with a record is not proof of love.
 
 You can keep it in the [Life Practice Toolkit](../../templates/life-practice-toolkit.md). Store the record privately and remove unnecessary third-party identity, health, financial, and relationship details.
 

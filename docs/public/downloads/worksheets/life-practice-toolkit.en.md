@@ -1,6 +1,6 @@
 # Life Practice Toolkit
 
-This is not a perfect daily streak. It is a private record for seeing reality again. When you face an important choice, scattered attention, relationship conflict, or prolonged exhaustion, copy the relevant section and write facts and a next step.
+This is not a perfect daily streak. It is a private record for seeing reality again. When you face an important choice, scattered attention, relationship conflict, prolonged exhaustion, or care work that needs sharing, copy the relevant section and write facts and a next step.
 
 Keep the file in a private notes or project directory. Do not include passwords, identity numbers, precise addresses, medical privacy, customer records, or unauthorised third-party information. When there is immediate danger, persistent insomnia, severe low mood, violence, debt, or legal responsibility, contact qualified professional support first.
 
@@ -152,7 +152,40 @@ Return-to-work gates:
 
 Related chapter: [Recovery: Catch Yourself Before You Push Forward](https://byoungd.github.io/up/en/threads/part-2/recovery)
 
-## 5. Weekly Review
+## 5. Care and Shared Responsibility Card
+
+Choose one practical task you can discuss, such as transport, groceries, company, rest arrangements, or a bill. Ask what is needed before confirming what each person chooses to carry. This card must not score love, track someone's movements, or demand reports; keep only the minimum information both people agree to record. Family or a partner is not a required supporter. Friends, community, or professional support may help instead. Children may join age-appropriate small tasks they can refuse, but must not take responsibility for soothing adults, mediating adult conflict, or rescuing anyone.
+
+### Care and Shared Responsibility Card - YYYY-MM-DD
+
+Person to care for or practical task to share:\
+What the other person says they need (write "unknown" if not yet asked):\
+One expression of care or gratitude I want to offer:
+
+Specific tasks I can carry myself:\
+Specific tasks where I need support:\
+Tasks that can be reduced, postponed, or stopped:\
+Time, energy, or resources I am currently willing and able to offer:\
+Time, energy, or resources the other person is willing and able to offer ("unknown" if unconfirmed):\
+Does the other person want to join this discussion and record?\
+How can either person refuse, pause, or adjust without blame, retaliation, or having to prove love?\
+Other people or services I can contact if this person cannot help:\
+Adult responsibilities that must stay with adults and appropriate supporters:
+
+Next step decided together (do not fill in the other person's role without agreement):
+
+- Action I choose to own and its completion date:
+- Action the other person explicitly agrees to own and its completion date:
+- What will remain unassigned or needs outside support:
+- Information we agree to keep, where to store it, and when to delete it:
+
+Next review date:\
+Signals to reduce the load or seek help before that date:\
+At review: is this still voluntary, is the load too heavy, and what needs to change?
+
+Related chapter: [Care: Finding Strength in the People We Love](https://byoungd.github.io/up/en/threads/part-2/care-and-carry-on). For boundaries, refusal, or repair, also read [Relationships](https://byoungd.github.io/up/en/threads/part-2/relationships).
+
+## 6. Weekly Review
 
 Answer five questions each week:
 
@@ -166,4 +199,4 @@ Keep this toolkit beside the [Weekly Review template](https://byoungd.github.io/
 
 ---
 
-Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/life-practice-toolkit) · Manuscript updated: 2026-09-07. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/life-practice-toolkit) · Manuscript updated: 2026-10-04. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
