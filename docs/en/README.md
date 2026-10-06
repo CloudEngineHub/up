@@ -24,6 +24,19 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">Text CC BY-NC 4.0</a>
 </div>
 
+<div class="quick-start" aria-labelledby="quick-start-title">
+  <div class="quick-start-heading">
+    <span class="quick-start-kicker">START HERE</span>
+    <h2 id="quick-start-title">Choose one action before choosing how much to read</h2>
+    <p>You do not need to read the whole book on your first visit. Choose one entry for today, complete a small action, and let the result point to the next page.</p>
+  </div>
+  <div class="quick-start-actions">
+    <a class="quick-start-action" href="./threads/part-0/reader-guide"><strong>I do not know where to begin</strong><span>Use the Reader's Guide to choose by problem and see when to preserve evidence or return for a review.</span></a>
+    <a class="quick-start-action" href="./templates/learning-state"><strong>I want to finish one thing today</strong><span>Use five minutes to write the real problem, current evidence, smallest action, and boundary before deciding whether you need the full record.</span></a>
+    <a class="quick-start-action" href="./threads/part-1/0-cefr"><strong>I want to check one English skill</strong><span>Start from a real situation, preserve a first sample, and choose one line across listening, speaking, reading, or writing.</span></a>
+  </div>
+</div>
+
 AI is making answers cheaper than they have ever been. In seconds, we can receive an explanation, a block of code, a plan, even a confident-sounding piece of life advice. What remains scarce is more demanding: **knowing which questions deserve pursuit, deciding which evidence deserves trust, turning suggestions into real work, and taking responsibility for the final judgment.**
 
 This is a lifelong-learning guide for ordinary people. It does not require you to begin as a genius, an expert, or a person with perfect discipline. It does not promise that a tool will change your fate. It offers a way to keep learning while the world accelerates: meet an unfamiliar problem, work with AI without surrendering judgment, finish something real, and carry the lesson into the next part of life.

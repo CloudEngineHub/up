@@ -1,7 +1,7 @@
 ---
 title: CEFR Goals and English Self-check
 description: Use A1-C2 can-do descriptors to establish a four-skill baseline and turn it into verifiable 7-day, 30-day, and 12-week work.
-updated: 2026-09-02
+updated: 2026-10-06
 ---
 
 # CEFR Goals and English Self-check
@@ -40,6 +40,18 @@ Choose one topic connected to real life. Complete the first version without look
 | Writing | Write a 180–250 word email, explanation, or argument in 20 minutes | Purpose, structure, support, accuracy, revision |
 
 Save the samples in the [English Diagnostic](../../templates/english-diagnostic.md). Rate each skill separately when the profile is uneven.
+
+## Do Not Let a Four-skill Average Hide Collaboration
+
+Listening, reading, speaking, and writing are necessary entry points, but real study and work also require you to pass information to other people, move an asynchronous conversation forward, and repair misunderstandings when they appear. These are **task dimensions**, not an extra level outside A1–C2; record their evidence separately on the same diagnostic page.
+
+| Task dimension | 10–15 minute sample | Evidence of completion |
+| --- | --- | --- |
+| Mediation and retelling | Read two short texts with different positions and explain each claim, the difference, and what remains unknown | A listener can distinguish both views, your retelling, and your inference; conflict is not smoothed into agreement |
+| Online interaction | In a real or simulated asynchronous thread, write one progress update, one blocker, and the next step | The other person knows who owns the next action, when it can continue, and what information is missing without a meeting |
+| Repairing misunderstanding | Ask for clarification in a conversation, then restate the shared understanding and open questions | The other person confirms the restatement, and the next action does not change because of a guess |
+
+Skip a dimension if your course, role, or family collaboration rarely uses it; test it separately when it is a high-risk part of real life. Do not use a speaking or writing score as a substitute. For role-specific samples, continue to [Job-search English](8-job-search-english.md) and place these dimensions back into a real job description and evidence card.
 
 ## Turn a Level into a Goal
 

@@ -1444,6 +1444,42 @@ test("home pages link to the reader guide", async ({ page }) => {
   );
 });
 
+test("home pages offer a focused first action before the longer reading paths", async ({ page }) => {
+  await page.goto("./");
+  const zhQuickStart = page.locator(".quick-start");
+  await expect(zhQuickStart.getByRole("heading", { level: 2, name: "先选一个动作，再决定读多远" })).toBeVisible();
+  await expect(zhQuickStart.locator(".quick-start-action")).toHaveCount(3);
+  await expect(zhQuickStart.getByRole("link", { name: /我还不知道从哪里开始/ })).toHaveAttribute(
+    "href",
+    "./threads/part-0/reader-guide",
+  );
+  await expect(zhQuickStart.getByRole("link", { name: /我想在今天做成一件事/ })).toHaveAttribute(
+    "href",
+    "./templates/learning-state",
+  );
+  await expect(zhQuickStart.getByRole("link", { name: /我想先测一项英语能力/ })).toHaveAttribute(
+    "href",
+    "./threads/part-1/0-cefr",
+  );
+
+  await page.goto("./en/");
+  const enQuickStart = page.locator(".quick-start");
+  await expect(enQuickStart.getByRole("heading", { level: 2, name: "Choose one action before choosing how much to read" })).toBeVisible();
+  await expect(enQuickStart.locator(".quick-start-action")).toHaveCount(3);
+  await expect(enQuickStart.getByRole("link", { name: /I do not know where to begin/ })).toHaveAttribute(
+    "href",
+    "./threads/part-0/reader-guide",
+  );
+  await expect(enQuickStart.getByRole("link", { name: /I want to finish one thing today/ })).toHaveAttribute(
+    "href",
+    "./templates/learning-state",
+  );
+  await expect(enQuickStart.getByRole("link", { name: /I want to check one English skill/ })).toHaveAttribute(
+    "href",
+    "./threads/part-1/0-cefr",
+  );
+});
+
 test("home guide paths are grouped by purpose and keep third-party resources distinct", async ({ page }) => {
   await page.goto("./");
   const zhGroups = page.locator("main .guide-path-group");

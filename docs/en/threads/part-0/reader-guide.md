@@ -1,7 +1,7 @@
 ---
 title: "Reader's Guide: Put the Book Back into Life"
 description: "A choose-your-own reading map for Life Level-up Guide: enter through a real problem, practice with evidence, review by cycle, and keep boundaries around AI and difficult seasons."
-updated: 2026-09-02
+updated: 2026-10-06
 prev:
   text: "Life Level-up Guide"
   link: /en/
@@ -20,7 +20,7 @@ If this is your first visit, do not begin by asking how much you should finish. 
 
 ### I only want to begin again
 
-Read the [Prologue: Do Not Rush to Change Your Life](prologue.md), then open the [Learning State](../../templates/learning-state.md). Do not design a three-year plan. Record the real context, current baseline, and one action you can finish in 25–45 minutes.
+Read the [Prologue: Do Not Rush to Change Your Life](prologue.md), then open the [Learning State](../../templates/learning-state.md). If you only have five minutes, use its minimum version first: write the real problem, evidence you already have, one smallest action, and the boundary you must keep. Decide whether you need the full 25–45 minute record after the action. Do not design a three-year plan first.
 
 ### I want to improve one concrete skill
 

@@ -36,6 +36,18 @@ Complete the first version without looking things up or asking AI to answer or r
 
 Do not flatten genuine differences to make the four skills look equal. The diagnostic should show where ability works, not manufacture a flattering average.
 
+## 2A. Record Collaboration Dimensions When Needed
+
+Add the tasks below when your goal includes remote collaboration, customer communication, classroom discussion, or family learning. They are not new levels and do not need to be tested every time; keep evidence when they affect a real outcome.
+
+| Task dimension             | 10–15 minute sample                                                                                          | Evidence location and result                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Mediation and retelling    | Read two short texts with different positions and explain each claim, difference, and unknown                | Listener distinguishes the source, your retelling, and your inference;                    |
+| Online interaction         | Write one progress update, one blocker, and the next step so the other person can continue without a meeting | The other person knows the owner, timing, and missing information;                        |
+| Repairing misunderstanding | Ask for clarification, then restate shared understanding and open questions                                  | The other person confirms accuracy and the next action did not change because of a guess; |
+
+Do not use a speaking or writing score as a substitute when one of these is a high-risk part of the role. Keep the sample, audience feedback, and next parallel task together.
+
 ## 3. Preserve the First Version and Conditions
 
 | Skill     | First-version location | Start/end | Tools and cues | Completed? | Main uncertainty |
@@ -137,4 +149,4 @@ Related entry points: [Learning Principles: Turn Effort into Verifiable Learning
 
 ---
 
-Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/english-diagnostic) · Manuscript updated: 2026-09-02. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/english-diagnostic) · Manuscript updated: 2026-10-06. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).

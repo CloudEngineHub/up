@@ -24,6 +24,19 @@ updated: 2026-10-04
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">正文 CC BY-NC 4.0</a>
 </div>
 
+<div class="quick-start" aria-labelledby="quick-start-title">
+  <div class="quick-start-heading">
+    <span class="quick-start-kicker">从这里开始</span>
+    <h2 id="quick-start-title">先选一个动作，再决定读多远</h2>
+    <p>第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，结果会告诉你下一页该去哪里。</p>
+  </div>
+  <div class="quick-start-actions">
+    <a class="quick-start-action" href="./threads/part-0/reader-guide"><strong>我还不知道从哪里开始</strong><span>用阅读指南按问题选择入口，知道何时留下证据、何时回来复查。</span></a>
+    <a class="quick-start-action" href="./templates/learning-state"><strong>我想在今天做成一件事</strong><span>先用五分钟写下真实问题、已有证据、最小动作和边界，再决定是否需要完整记录。</span></a>
+    <a class="quick-start-action" href="./threads/part-1/0-cefr"><strong>我想先测一项英语能力</strong><span>从一个真实场景开始，保存首版，再选择听、说、读、写中的一条训练线。</span></a>
+  </div>
+</div>
+
 AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：**知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。**
 
 这是一份面向普通人的终身学习指南。它不要求你先成为天才、专家或意志坚定的人，也不许诺某个工具会替你改变命运。它想做的，是陪你在变化加速的时代里，一次次重新学习：面对陌生问题，借助 AI，也保留自己的判断；完成一件真实的事，再把经验带到下一段路。

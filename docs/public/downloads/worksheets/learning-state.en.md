@@ -2,14 +2,29 @@
 
 Copy this into a private note. It is a cross-session source of truth, not a performance diary. Do not include passwords, government IDs, exact addresses, sensitive health data, or third-party information without permission.
 
-## Learning State
+## If you only have five minutes today
+
+Do not fill the whole form first. Copy the minimum version below and do the action; expand it into the full state file only when you need to resume across sessions, hand work over, or review a cycle.
+
+### Learning State — minimum
+
+Date: YYYY-MM-DD\
+The real problem I am handling:\
+Evidence I already have:\
+The smallest action I can finish today:\
+Evidence I will save when it is done:\
+What I will not upload or publish:
+
+The minimum is complete when a future version of you can understand the problem, current evidence, next action, and boundary. It is not a full plan or a substitute for an independent retest. It is a way to let action happen first.
+
+### Learning State
 
 State version: v1\
 Updated: YYYY-MM-DD\
 Owner:\
 Primary file location:
 
-### Goal
+#### Goal
 
 - Real context:
 - Current main task:
@@ -18,7 +33,7 @@ Primary file location:
 - Acceptance criteria:
 - Deadline:
 
-### Constraints and Boundaries
+#### Constraints and Boundaries
 
 - Weekly time/energy available:
 - Materials and tools allowed:
@@ -26,7 +41,7 @@ Primary file location:
 - AI may assist with:
 - A person must confirm:
 
-### Current Level and Baseline
+#### Current Level and Baseline
 
 - I can currently:
 - Baseline sample:
@@ -36,24 +51,24 @@ Primary file location:
 | ------ | ---------- | -------- | ---- | ------------------------- |
 |        |            |          |      |                           |
 
-### Completed
+#### Completed
 
 - \[date] task — output/evidence location — result/next step
 
-### Errors, Risks, and Knowledge Gaps
+#### Errors, Risks, and Knowledge Gaps
 
 | Error/risk | Evidence | Likely cause/confidence | Next treatment and stop condition |
 | ---------- | -------- | ----------------------- | --------------------------------- |
 
-### Methods That Worked
+#### Methods That Worked
 
 - Method — conditions — evidence
 
-### Hypotheses to Test
+#### Hypotheses to Test
 
 - Hypothesis — counterexample — next test — deadline
 
-### Latest Handover
+#### Latest Handover
 
 - Completed and evidence:
 - Facts still unconfirmed:
@@ -62,7 +77,7 @@ Primary file location:
 - First action when reopening:
 - People to notify or consult:
 
-### Next Action
+#### Next Action
 
 1. Smallest next task:
 2. Expected time:
@@ -82,4 +97,4 @@ An AI summary is not the source of truth. Resume from the file, saved work, sour
 
 ---
 
-Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/learning-state) · Manuscript updated: 2026-09-01. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Source: [Life Level-up Guide](https://byoungd.github.io/up/en/templates/learning-state) · Manuscript updated: 2026-10-06. Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
