@@ -1,7 +1,7 @@
 ---
 title: "Life Level-up Guide | Lifelong Learning in the AI Era"
 description: Learning continuously in the AI era, Life Level-up Guide helps ordinary people complete real projects, move through difficult seasons, and preserve evidence of growth.
-updated: 2026-10-04
+updated: 2026-10-09
 ---
 
 # Life Level-up Guide
@@ -12,6 +12,8 @@ updated: 2026-10-04
 
 Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript begins with English and continues into AI learning, real projects, entrepreneurship, recovery, and the work of returning your life to yourself one small act at a time.
 
+**What you get:** a bilingual open manuscript, downloadable EPUB/PDF editions, reusable worksheets, and a practice path that starts in five minutes, retests a change after fourteen days, and reviews the system after ninety days.
+
 <div class="book-meta" aria-label="Book information">
   <span>Living manuscript</span>
   <a href="./book-downloads">Download Center</a>
@@ -21,6 +23,7 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
   <a href="../downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
   <a href="https://github.com/byoungd/up">Source and corrections</a>
   <a href="./templates/reader-field-note">Reader Field Note</a>
+  <a href="https://github.com/byoungd/up/blob/main/CITATION.cff">Citation</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">Text CC BY-NC 4.0</a>
 </div>
 
@@ -28,14 +31,32 @@ Subtitle: **Lifelong Learning Guide for the AI Era**. This living manuscript beg
   <div class="quick-start-heading">
     <span class="quick-start-kicker">START HERE</span>
     <h2 id="quick-start-title">Choose one action before choosing how much to read</h2>
-    <p>You do not need to read the whole book on your first visit. Choose one entry for today, complete a small action, and let the result point to the next page.</p>
+    <p>You do not need to read the whole book on your first visit. Choose one entry for today, complete a small action, and let the result point to the next page: five minutes to set a starting point, fourteen days to test one change, and ninety days to decide whether a system should remain.</p>
   </div>
   <div class="quick-start-actions">
-    <a class="quick-start-action" href="./threads/part-0/reader-guide"><strong>I do not know where to begin</strong><span>Use the Reader's Guide to choose by problem and see when to preserve evidence or return for a review.</span></a>
-    <a class="quick-start-action" href="./templates/learning-state"><strong>I want to finish one thing today</strong><span>Use five minutes to write the real problem, current evidence, smallest action, and boundary before deciding whether you need the full record.</span></a>
-    <a class="quick-start-action" href="./threads/part-1/0-cefr"><strong>I want to check one English skill</strong><span>Start from a real situation, preserve a first sample, and choose one line across listening, speaking, reading, or writing.</span></a>
+    <a class="quick-start-action" href="./threads/part-0/reader-guide"><strong>5 minutes: I do not know where to begin</strong><span>Use the Reader's Guide to choose by problem and see when to preserve evidence or return for a review.</span></a>
+    <a class="quick-start-action" href="./templates/learning-state"><strong>Today: I want to finish one thing</strong><span>Write the real problem, current evidence, smallest action, and boundary before deciding whether you need the full record.</span></a>
+    <a class="quick-start-action" href="./threads/part-1/open-input"><strong>14 days: I want to practice one English skill</strong><span>Choose listening, speaking, reading, or writing; keep a first sample and retest under new conditions.</span></a>
   </div>
+  <p class="quick-start-cycle">Ready for a full cycle? Start with the <a href="./templates/90-day-cycle">90-Day Cycle Map</a> and carry one experiment into real work and life.</p>
 </div>
+
+If this guide helps you complete one real action, please [star the repository](https://github.com/byoungd/up) so more learners can find it. For an error, translation gap, or reproducible practice result, use the [issue templates](https://github.com/byoungd/up/issues/new/choose).
+
+## Choose Your Entry Point
+
+This guide is for people who want to improve English, learn with AI, finish real work, or rebuild a workable rhythm of life. You do not need to read it from beginning to end: start with a real problem, complete one small action, and let the result choose the next page. If you only want a shortcut, a model ranking, or a context-free “perfect plan,” this is probably not the right first stop.
+
+| Your current situation | Start here | One result to preserve |
+| --- | --- | --- |
+| You do not know which page to open | [Reader's Guide](threads/part-0/reader-guide.md) | A problem-based reading route |
+| You want a real baseline for English skills | [English Diagnostic](templates/english-diagnostic.md) | A first sample on one topic and one barrier |
+| You want AI in your work without outsourcing judgment | [AI Learning](threads/part-3/1-ai-learning.md) · [AI Evaluation](templates/ai-evaluation.md) | A reviewable experiment and acceptance criteria |
+| You want to finish a project or test a business idea | [Practice Map: Start with a Problem](practice.md) · [Startup Experiment](templates/startup-experiment.md) | A real output, user feedback, or a failure record |
+| You are rebuilding a daily rhythm | [Life Practice Toolkit](templates/life-practice-toolkit.md) | A boundary you can care for today and the smallest next task |
+| You need an offline copy or a citation | <a href="./book-downloads">Download Center</a> · [Citation](https://github.com/byoungd/up/blob/main/CITATION.cff) | An EPUB/PDF file or a standard citation |
+
+Keep one line of work in view: **define the problem → preserve a baseline → complete the minimum task → record evidence → retest later → decide what transfers**. AI can help decompose, question, compare, and give feedback; people still confirm the goal, sources, privacy, acceptance, and final responsibility.
 
 AI is making answers cheaper than they have ever been. In seconds, we can receive an explanation, a block of code, a plan, even a confident-sounding piece of life advice. What remains scarce is more demanding: **knowing which questions deserve pursuit, deciding which evidence deserves trust, turning suggestions into real work, and taking responsibility for the final judgment.**
 
@@ -191,11 +212,20 @@ Products, company visits, and real-world projects involving Han Xiankai live on 
 
 You can also follow me on [X](https://x.com/ourleap) for updates on AI practice, English learning, and personal growth.
 
+### Continue on Douyin
+
+Scan to follow **Han Xiankai of China Token Cloud (Douyin ID: 72581209403)** for short updates on English practice, AI collaboration, real projects, and life-level-up work. The QR code is only a public account-following entry point; this site has no ads, analytics, or trackers and does not collect site-visit data through a follow. If scanning is unavailable, search Douyin for “Han Xiankai” or `72581209403`.
+
+<figure class="author-social-card">
+  <img src="../assets/creator-douyin.jpg" alt="Douyin account QR code: follow Han Xiankai of China Token Cloud for English, AI, and growth practice" width="360" height="538" loading="lazy" decoding="async" />
+  <figcaption>Author-provided public account QR code; image metadata has been removed.</figcaption>
+</figure>
+
 ## Project Boundaries
 
 - This is an open-content project, not open-source software in the OSI sense. Text and author-created content use **CC BY-NC 4.0**; site configuration, checks, and build code use **MIT**. See [Licensing](https://github.com/byoungd/up/blob/main/LICENSE.md).
 - Sources and licensing status for quotations, images, and third-party material are recorded in [Attributions](https://github.com/byoungd/up/blob/main/ATTRIBUTIONS.md).
-- Read [Contributing](https://github.com/byoungd/up/blob/main/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/byoungd/up/blob/main/CODE_OF_CONDUCT.md) before contributing.
+- Read [Contributing](https://github.com/byoungd/up/blob/main/CONTRIBUTING.md), the [中文贡献指南](https://github.com/byoungd/up/blob/main/CONTRIBUTING.zh-CN.md), and the [Code of Conduct](https://github.com/byoungd/up/blob/main/CODE_OF_CONDUCT.md) before contributing.
 - Check dates for product and service entries are recorded per page and in [Attributions](https://github.com/byoungd/up/blob/main/ATTRIBUTIONS.md); capability, availability, and compliance scope still require official pages, formal terms, and real acceptance. Outdated notes are welcome as issues.
 
 ## Read Online

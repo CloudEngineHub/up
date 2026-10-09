@@ -1,7 +1,7 @@
 ---
 title: 人生进阶指南｜AI 时代终身学习
 description: 《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。
-updated: 2026-10-04
+updated: 2026-10-09
 ---
 
 # 人生进阶指南
@@ -12,6 +12,8 @@ updated: 2026-10-04
 
 副标题：**AI 时代终身学习指南**。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。
 
+**你会得到：** 一套中英双语开放书稿、可下载的 EPUB/PDF、可复制的工作表，以及一条从五分钟起步、用十四天复测、在九十天后复盘的实践路径。
+
 <div class="book-meta" aria-label="书稿信息">
   <span>持续更新书稿</span>
   <a href="./docs/book-downloads.md">下载中心</a>
@@ -21,6 +23,7 @@ updated: 2026-10-04
   <a href="./docs/public/downloads/life-level-up-guide-en.pdf" download>Download English PDF</a>
   <a href="https://github.com/byoungd/up">源码与勘误</a>
   <a href="./docs/templates/reader-field-note.md">读者实践回执</a>
+  <a href="https://github.com/byoungd/up/blob/main/CITATION.cff">引用格式</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">正文 CC BY-NC 4.0</a>
 </div>
 
@@ -28,14 +31,32 @@ updated: 2026-10-04
   <div class="quick-start-heading">
     <span class="quick-start-kicker">从这里开始</span>
     <h2 id="quick-start-title">先选一个动作，再决定读多远</h2>
-    <p>第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，结果会告诉你下一页该去哪里。</p>
+    <p>第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，结果会告诉你下一页该去哪里：五分钟建立起点，十四天验证一项改变，九十天决定是否留下系统。</p>
   </div>
   <div class="quick-start-actions">
-    <a class="quick-start-action" href="./docs/threads/part-0/reader-guide.md"><strong>我还不知道从哪里开始</strong><span>用阅读指南按问题选择入口，知道何时留下证据、何时回来复查。</span></a>
-    <a class="quick-start-action" href="./docs/templates/learning-state.md"><strong>我想在今天做成一件事</strong><span>先用五分钟写下真实问题、已有证据、最小动作和边界，再决定是否需要完整记录。</span></a>
-    <a class="quick-start-action" href="./docs/threads/part-1/0-cefr.md"><strong>我想先测一项英语能力</strong><span>从一个真实场景开始，保存首版，再选择听、说、读、写中的一条训练线。</span></a>
+    <a class="quick-start-action" href="./docs/threads/part-0/reader-guide.md"><strong>5 分钟：我还不知道从哪里开始</strong><span>用阅读指南按问题选择入口，知道何时留下证据、何时回来复查。</span></a>
+    <a class="quick-start-action" href="./docs/templates/learning-state.md"><strong>今天：我想做成一件事</strong><span>写下真实问题、已有证据、最小动作和边界，再决定是否需要完整记录。</span></a>
+    <a class="quick-start-action" href="./docs/threads/part-1/open-input.md"><strong>14 天：我想练习一项英语能力</strong><span>选择听、说、读、写中的一条训练线，保存首版，并在新条件下复测。</span></a>
   </div>
+  <p class="quick-start-cycle">准备一个完整周期？从 <a href="./docs/templates/90-day-cycle.md">九十日行动总表</a>开始，把一次练习带进真实项目和生活。</p>
 </div>
+
+如果这份指南帮你完成了一个真实动作，欢迎 [Star 本仓库](https://github.com/byoungd/up)，让更多学习者找到它；发现错误、翻译差异或可复现的实践结果，可以通过 [Issue 模板](https://github.com/byoungd/up/issues/new/choose) 分享。
+
+## 先判断入口
+
+这份指南适合想提高英语、学习 AI、完成真实项目，或正在重新建立生活节律的人。你不需要一次读完：先从一个真实问题开始，完成一个小动作，再决定下一页。只想找速成口诀、模型排名或脱离场景的“万能计划”时，这里可能不是合适的第一站。
+
+| 你现在面对的情况 | 先打开 | 一次留下什么 |
+| --- | --- | --- |
+| 不知道从哪一页开始 | [阅读指南](docs/threads/part-0/reader-guide.md) | 一条按问题选择的阅读路线 |
+| 想测英语听说读写的真实起点 | [英语能力诊断](docs/templates/english-diagnostic.md) | 同一主题下的首版样本与一个障碍 |
+| 想把 AI 用进工作而不外包判断 | [AI 学习](docs/threads/part-3/1-ai-learning.md) · [AI 评测](docs/templates/ai-evaluation.md) | 一次可复核的小实验与验收标准 |
+| 想完成作品、项目或创业验证 | [实践路线图：从问题开始](docs/practice.md) · [创业实验卡](docs/templates/startup-experiment.md) | 一个真实输出、用户反馈或失败记录 |
+| 正在恢复节律或重新安排生活 | [生活进阶工作表](docs/templates/life-practice-toolkit.md) | 今天可照顾的边界与下一项最小任务 |
+| 需要离线阅读或引用 | <a href="./docs/book-downloads.md">下载中心</a> · [引用格式](https://github.com/byoungd/up/blob/main/CITATION.cff) | EPUB/PDF 文件或规范化引用信息 |
+
+使用时只保留一条主线：**定义问题 → 保存基线 → 完成最小任务 → 记录证据 → 延迟复测 → 决定迁移**。AI 可以帮助拆解、提问、比较和反馈；目标、来源、隐私、验收与最终责任仍由人确认。
 
 AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：**知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。**
 
@@ -203,11 +224,20 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 也欢迎关注我的 [X](https://x.com/ourleap)，获取 AI 实践、英语学习和个人成长的最新分享。
 
+### 在抖音继续看
+
+扫码关注抖音账号 **中国词元集团韩先凯（抖音号：72581209403）**，获取英语训练、AI 协作、真实项目和人生进阶的短内容。二维码只提供公开账号关注入口；本站不接入广告、分析脚本或追踪器，也不会因为关注二维码收集站点访问数据。无法扫码时，可在抖音搜索“韩先凯”或抖音号 `72581209403`。
+
+<figure class="author-social-card">
+  <img src="./docs/assets/creator-douyin.jpg" alt="抖音账号二维码：扫码关注中国词元集团韩先凯，获取英语、AI 与成长实践分享" width="360" height="538" loading="lazy" decoding="async" />
+  <figcaption>作者提供的公开账号二维码；图片元数据已清理。</figcaption>
+</figure>
+
 ## 项目边界
 
 - 本项目是开放内容项目，不是 OSI 意义上的开源软件：正文与作者内容采用 **CC BY-NC 4.0**，站点配置、检查脚本和构建代码采用 **MIT**。详见 [许可证说明](https://github.com/byoungd/up/blob/main/LICENSE.md)。
 - 引用、图片和第三方素材的来源及授权状态记录在 [第三方素材与引用](https://github.com/byoungd/up/blob/main/ATTRIBUTIONS.md)。
-- 贡献前请阅读 [贡献指南](https://github.com/byoungd/up/blob/main/CONTRIBUTING.md) 和 [行为准则](https://github.com/byoungd/up/blob/main/CODE_OF_CONDUCT.md)。
+- 贡献前请阅读 [贡献指南](https://github.com/byoungd/up/blob/main/CONTRIBUTING.md)、[中文贡献指南](https://github.com/byoungd/up/blob/main/CONTRIBUTING.zh-CN.md) 和 [行为准则](https://github.com/byoungd/up/blob/main/CODE_OF_CONDUCT.md)。
 - 产品与服务条目的核验日期以各自页面和 [第三方素材与引用](https://github.com/byoungd/up/blob/main/ATTRIBUTIONS.md) 中的记录为准；产品能力、可用性与合规范围仍以官方页面、正式协议和实际验收为准，过期内容欢迎提交 issue。
 
 ## 在线阅读

@@ -1453,13 +1453,13 @@ test("home pages offer a focused first action before the longer reading paths", 
     "href",
     "./threads/part-0/reader-guide",
   );
-  await expect(zhQuickStart.getByRole("link", { name: /我想在今天做成一件事/ })).toHaveAttribute(
+  await expect(zhQuickStart.getByRole("link", { name: /我想做成一件事/ })).toHaveAttribute(
     "href",
     "./templates/learning-state",
   );
-  await expect(zhQuickStart.getByRole("link", { name: /我想先测一项英语能力/ })).toHaveAttribute(
+  await expect(zhQuickStart.getByRole("link", { name: /我想练习一项英语能力/ })).toHaveAttribute(
     "href",
-    "./threads/part-1/0-cefr",
+    "./threads/part-1/open-input",
   );
 
   await page.goto("./en/");
@@ -1470,13 +1470,13 @@ test("home pages offer a focused first action before the longer reading paths", 
     "href",
     "./threads/part-0/reader-guide",
   );
-  await expect(enQuickStart.getByRole("link", { name: /I want to finish one thing today/ })).toHaveAttribute(
+  await expect(enQuickStart.getByRole("link", { name: /I want to finish one thing/ })).toHaveAttribute(
     "href",
     "./templates/learning-state",
   );
-  await expect(enQuickStart.getByRole("link", { name: /I want to check one English skill/ })).toHaveAttribute(
+  await expect(enQuickStart.getByRole("link", { name: /I want to practice one English skill/ })).toHaveAttribute(
     "href",
-    "./threads/part-1/0-cefr",
+    "./threads/part-1/open-input",
   );
 });
 
