@@ -1,6 +1,6 @@
 # Third-party Material and Citations
 
-Last reviewed: 2026-10-03 (AI learning additions; older access dates below are retained).
+Last reviewed: 2026-10-09 (homepage and author-provided QR addition; older access dates below are retained).
 
 This register distinguishes repository-owned material from third-party sources. A link is not a transfer of rights. Contributors must add or update an entry when adding external media, a substantial quotation, a dataset, or a product capability claim.
 
